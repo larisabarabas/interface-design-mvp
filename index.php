@@ -6,6 +6,7 @@
         <input type="checkbox" checked data-toggle="toggle">
 
 <?php 
+ $sLinkToScript = '<script src="js/app.js"></script>';
   require_once 'bottom.php';
 ?>
     
