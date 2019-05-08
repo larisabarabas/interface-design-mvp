@@ -14,7 +14,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="nav navbar-nav navbar-left">
-    <a class="nav-link mobile-only" id="back-button" href="#"><i class="fas fa-angle-left"></i></a>
+    <a class="nav-link mobile-only" id="back-button" href=""><i class="fas fa-angle-left"></i></a>
     </div>
     <a class="navbar-brand" href="#">Rento</a>
 

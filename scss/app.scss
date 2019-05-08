@@ -14,6 +14,38 @@
     float: right !important;
 }
 
+.main-container{
+    margin: 20px 40px;
+}
+
+.padding-top-bottom-40{
+    margin: 40px 0px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border:none;
+}
+
+.info-link{
+    margin:20px 0px;
+    text-align: center;
+}
+
+.car-info{
+    font-size: 12px;
+    text-align: center;
+}
+
+.price-info{
+    margin:20px 0px;
+}
+
+
 @media only screen and (min-width: 990px) { 
     .mobile-only{
         display: none;
