@@ -2,18 +2,18 @@
   require_once 'top.php';
 ?>
 <div class="main-container">
-    <h1 class="text-center padding-top-bottom-40">Search for a car</h1>
+    <h1 class="text-center padding-top-bottom-40">Pickup location</h1>
     <form>
         <div class="form-group">
             <input type="text" class="form-control" id="strLocation" placeholder="Location">
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <input id="search-input" class="form-check-input" type="checkbox" value="" id="defaultCheck1">
             <label class="form-check-label" for="defaultCheck1">
                 Return in the same location
             </label>
         </div>
-        <p class="text-center padding-top-bottom-40">Pick-up/drop-off dates</p>
+        <h1 class="text-center padding-top-bottom-40">Pick-up/drop-off dates</h1>
         <div class="form-group">
             <input class="form-control" type="text" name="pickUp" id="pickUp" />
         </div>

@@ -25,6 +25,10 @@ $textcolor: #07131F;
     margin: 20px 40px;
 }
 
+.padding-top-bottom-20{
+    margin: 20px 0;
+}
+
 .padding-top-bottom-40{
     margin: 40px 0px;
 }
@@ -125,10 +129,11 @@ body{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
-    padding: 15px 0;
+    padding: 15px;
     width: 100%;
     margin: 10px 0; 
     text-decoration: none;
+    border-radius: 0;
 }
 
 
@@ -176,8 +181,6 @@ input{
     font-size: 17px;
     font-family: 'Lato', sans-serif;
     outline: none; 
-
-  
 }
 a{
     color: $primarygreen;
@@ -283,6 +286,8 @@ a{
     background-size: 27px 27px;
 }
 
+/*manage-booking.php*/
+
 #booking-reference{
     font-weight: bold;
     color: $darkergray;
@@ -305,6 +310,22 @@ a{
 .fsize-17{
     font-size: 17px;
 }
+
+.booking-reference-container{
+    color: $textcolor;
+    p:first-child{
+        font-size: 17px;
+    }
+}
+
+/*search.php*/
+
+input#search-input{
+    width: auto !important;
+    margin-bottom: 0;
+}
+
+
 
 /*Navbar*/
 
