@@ -29,6 +29,12 @@
   margin: 20px 0px;
   text-align: center; }
 
+.info-link p {
+  font-size: 12px; }
+
+.info-link p:last-child {
+  font-size: 14px; }
+
 .car-info {
   font-size: 12px;
   text-align: center; }
