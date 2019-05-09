@@ -36,6 +36,15 @@
     text-align: center;
 }
 
+.info-link p{
+    font-size: 12px;
+    
+}
+
+.info-link p:last-child{
+    font-size: 14px;
+}
+
 .car-info{
     font-size: 12px;
     text-align: center;
@@ -43,6 +52,30 @@
 
 .price-info{
     margin:20px 0px;
+}
+
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+
+.icon{
+    padding-bottom: 5px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+.checkbox{
+    width:20px;
+    margin-bottom:0px;
+}
+
+.inline-flex{
+    display: inline-flex;
+    padding-left:0px;
+}
+
+.check-text{
+    margin-top:-6px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
@@ -65,9 +98,9 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    /*height: 100vh;*/
     align-items: center;
-    // padding: 15vw;
+    /*padding: 15vw;*/
 }
 .green-btn{
     background-color: $primarygreen;
@@ -108,6 +141,7 @@ h1{
     font-size: 28px;
     margin-bottom: 80px;
 }
+
 input{
     border: none;
     margin-bottom: 50px;

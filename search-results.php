@@ -1,4 +1,5 @@
 <?php 
+$sLinkToPageBack = 'search.php';
   require_once 'top.php';
 ?>
 <div class="main-container">
@@ -10,7 +11,7 @@
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="info-link">
-                <a href="#">View vehicle information</a>
+                <a href="car-details.php">View vehicle information</a>
             </div>
 
             <div class="price-info">
@@ -18,7 +19,7 @@
             </div>
 
             <div class="button-container">
-                <a href="#" class="btn btn-primary">Book this car</a>
+                <a href="driver-details.php" class="btn btn-primary">Book this car</a>
             </div>
         </div>
     </div>
@@ -30,7 +31,7 @@
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="info-link">
-                <a href="#">View vehicle information</a>
+                <a href="car-details.php">View vehicle information</a>
             </div>
 
             <div class="price-info">
@@ -38,7 +39,7 @@
             </div>
 
             <div class="button-container">
-                <a href="#" class="btn btn-primary">Book this car</a>
+                <a href="driver-details.php" class="btn btn-primary">Book this car</a>
             </div>
         </div>
     </div>
@@ -50,7 +51,7 @@
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="info-link">
-                <a href="#">View vehicle information</a>
+                <a href="car-details.php">View vehicle information</a>
             </div>
 
             <div class="price-info">
@@ -58,7 +59,7 @@
             </div>
 
             <div class="button-container">
-                <a href="#" class="btn btn-primary">Book this car</a>
+                <a href="driver-details.php" class="btn btn-primary">Book this car</a>
             </div>
         </div>
     </div>

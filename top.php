@@ -14,7 +14,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="nav navbar-nav navbar-left">
-    <a class="nav-link mobile-only" id="back-button" href=""><i class="fas fa-angle-left"></i></a>
+    <a class="nav-link mobile-only" id="back-button" href="<?=$sLinkToPageBack ?? ''; ?>"><i class="fas fa-angle-left"></i></a>
     </div>
     <a href="index.html" class="navbar-brand"><img class="header-logo" src="images/rento-logo-inversed-colors.svg"></a>
 
@@ -29,7 +29,13 @@
     </ul>
     <ul class=" nav navbar-nav navbar-right">
     <li class="nav-item">
+        <a class="nav-link" href="#">Search</a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="#">Profile</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Manage Booking</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="#">Logout</a>

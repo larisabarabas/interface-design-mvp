@@ -29,12 +29,37 @@
   margin: 20px 0px;
   text-align: center; }
 
+.info-link p {
+  font-size: 12px; }
+
+.info-link p:last-child {
+  font-size: 14px; }
+
 .car-info {
   font-size: 12px;
   text-align: center; }
 
 .price-info {
   margin: 20px 0px; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px; }
+
+.icon {
+  padding-bottom: 5px;
+  width: 24px;
+  padding-right: 5px; }
+
+.checkbox {
+  width: 20px;
+  margin-bottom: 0px; }
+
+.inline-flex {
+  display: inline-flex;
+  padding-left: 0px; }
+
+.check-text {
+  margin-top: -6px; }
 
 body {
   margin: 0;
@@ -50,8 +75,9 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
-  align-items: center; }
+  /*height: 100vh;*/
+  align-items: center;
+  /*padding: 15vw;*/ }
 
 .green-btn {
   background-color: #27E277;
