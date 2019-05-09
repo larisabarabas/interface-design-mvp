@@ -87,10 +87,10 @@ body {
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  padding: 20px 0;
+  font-size: 17px;
+  padding: 15px 0;
   width: 100%;
-  margin: 15px 0;
+  margin: 10px 0;
   text-decoration: none; }
 
 .buttons {
@@ -106,8 +106,7 @@ nav {
 
 .header-logo {
   height: 50px;
-  margin: 10px;
-  margin-left: 25vw; }
+  margin: 10px; }
 
 .back {
   height: 30px;
@@ -230,8 +229,32 @@ a {
   font-weight: bold;
   color: #707070; }
 
+/*Navbar*/
+.navbar-light .navbar-toggler {
+  border: none; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/burger.svg");
+  outline: none; }
+
+.navbar-light .navbar-toggler {
+  outline: none; }
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+
+.rento-logo {
+  width: 300px;
+  margin-bottom: 50px; }
+
 @media only screen and (min-width: 990px) {
   .mobile-only {
-    display: none; } }
+    display: none; }
+
+  .green-btn {
+    width: 300px; } }
 
 /*# sourceMappingURL=app.css.map */

@@ -12,11 +12,11 @@
     <title>Rento</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="nav navbar-nav navbar-left">
     <a class="nav-link mobile-only" id="back-button" href="<?=$sLinkToPageBack ?? ''; ?>"><i class="fas fa-angle-left"></i></a>
     </div>
-    <a class="navbar-brand" href="#">Rento</a>
+    <a href="index.html" class="navbar-brand"><img class="header-logo" src="images/rento-logo-inversed-colors.svg"></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
