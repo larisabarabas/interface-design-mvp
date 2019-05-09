@@ -43,7 +43,11 @@
   text-align: center; }
 
 .price-info {
-  margin: 20px 0px; }
+  margin: 20px 0px;
+  color: #07131F; }
+
+.price-info h4 {
+  font-weight: 600; }
 
 .padding-bottom-20 {
   padding-bottom: 20px; }
@@ -63,6 +67,10 @@
 
 .check-text {
   margin-top: -6px; }
+
+sup {
+  font-family: Montserrat;
+  font-size: 14px; }
 
 body {
   margin: 0;
