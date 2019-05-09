@@ -29,7 +29,13 @@
     </ul>
     <ul class=" nav navbar-nav navbar-right">
     <li class="nav-item">
+        <a class="nav-link" href="#">Search</a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="#">Profile</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Manage Booking</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="#">Logout</a>

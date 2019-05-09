@@ -45,6 +45,30 @@
     margin:20px 0px;
 }
 
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+
+.icon{
+    padding-bottom: 5px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+.checkbox{
+    width:20px;
+    margin-bottom:0px;
+}
+
+.inline-flex{
+    display: inline-flex;
+    padding-left:0px;
+}
+
+.check-text{
+    margin-top:-6px;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 $primarygreen: #27E277;
@@ -65,9 +89,9 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    /*height: 100vh;*/
     align-items: center;
-    padding: 15vw;
+    /*padding: 15vw;*/
 }
 .green-btn{
     background-color: $primarygreen;
