@@ -12,7 +12,7 @@
     <title>Rento</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light" id="navigation">
     <div class="nav navbar-nav navbar-left">
     <a class="nav-link mobile-only" id="back-button" href="<?=$sLinkToPageBack ?? ''; ?>"><i class="fas fa-angle-left"></i></a>
     </div>
