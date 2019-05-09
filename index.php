@@ -7,9 +7,9 @@
 
   <div class="main-container">
     <img class="rento-logo" src="images/rento-logo.svg" alt="">
-    <a href="" class="green-btn">Sign in</a>
-    <a href="" class="green-btn">Book a car</a>
-    <a href="" class="green-btn">Manage booking</a>
+    <a href="sign-in.php" class="green-btn">Sign in</a>
+    <a href="search.php" class="green-btn">Book a car</a>
+    <a href="#" class="green-btn">Manage booking</a>
   </div>
 
 <?php 
