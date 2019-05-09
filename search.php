@@ -2,7 +2,7 @@
   require_once 'top.php';
 ?>
 <div class="main-container">
-    <h3 class="text-center padding-top-bottom-40">Search for a car</h3>
+    <h1 class="text-center padding-top-bottom-40">Search for a car</h1>
     <form>
         <div class="form-group">
             <input type="text" class="form-control" id="strLocation" placeholder="Location">
@@ -21,7 +21,7 @@
             <input  class="form-control" type="text" name="pickOff" id="pickOff" />
         </div>
         <div class="button-container">
-            <button type="button" onclick="doSearch()" class="btn btn-primary">Search</button>
+            <button type="button" onclick="doSearch()" class="btn green-btn">Search</button>
         </div>
     </form>
 </div>

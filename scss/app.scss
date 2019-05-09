@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+$primarygreen: #27E277;
+$gray: #A3A3A3;
+$darkergray: #707070;
+
 .mobile-only{
     display: initial;
 }
@@ -56,6 +62,11 @@
 
 .price-info{
     margin:20px 0px;
+    color:#07131F;
+}
+
+.price-info h4{
+    font-weight: 600;   
 }
 
 .padding-bottom-20{
@@ -82,11 +93,12 @@
     margin-top:-6px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
-@import url('https://fonts.googleapis.com/css?family=Lato');
-$primarygreen: #27E277;
-$gray: #A3A3A3;
-$darkergray: #707070;
+sup{
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+
 
 body{
     margin: 0;
