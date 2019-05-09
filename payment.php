@@ -3,7 +3,7 @@ $sLinkToPageBack = 'driver-details.php';
   require_once 'top.php';
 ?>
 
-<div>
+<div class="main-container">
     <h1>Payment</h1>
     <p>Base Rate<span class="align-right">$27.35</span></p>
     <p>Kilometers<span class="align-right">Unlimited</span></p>
@@ -13,7 +13,7 @@ $sLinkToPageBack = 'driver-details.php';
     <p>Total<span class="align-right">$102.89</span></p>
 </div>
 
-<div>
+<div class="main-container">
     <h1>Credit Card & Billing Information</h1>
     <input type="text" placeholder="Card number">
     <div>
