@@ -31,6 +31,10 @@
     border:none;
 }
 
+.card-title{
+    color: #07131F;
+}
+
 .info-link{
     margin:20px 0px;
     text-align: center;
@@ -138,8 +142,12 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: $primarygreen;
-    font-size: 28px;
+    font-size: 22px;
     margin-bottom: 80px;
+}
+
+.margin-bottom-1rem{
+    margin-bottom: 1rem;
 }
 
 input{
@@ -256,6 +264,11 @@ a{
 #date_ex{
     background: url(../images/calendar.svg) no-repeat right center;
     background-size: 27px 27px;
+}
+
+#booking-reference{
+    font-weight: bold;
+    color: $darkergray;
 }
 
 /*Navbar*/
