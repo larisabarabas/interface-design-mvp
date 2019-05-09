@@ -15,7 +15,7 @@ $sLinkToPageBack = 'search.php';
             </div>
 
             <div class="button-container">
-                <a href="car-details.php" class="btn green-btn">Book this car</a>
+                <a href="car-details.php" class="green-btn">Book this car</a>
             </div>
         </div>
     </div>
@@ -31,7 +31,7 @@ $sLinkToPageBack = 'search.php';
             </div>
 
             <div class="button-container">
-                <a href="car-details.php" class="btn green-btn">Book this car</a>
+                <a href="car-details.php" class="green-btn">Book this car</a>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@ $sLinkToPageBack = 'search.php';
             </div>
 
             <div class="button-container">
-                <a href="car-details.php" class="btn green-btn">Book this car</a>
+                <a href="car-details.php" class="green-btn">Book this car</a>
             </div>
         </div>
     </div>

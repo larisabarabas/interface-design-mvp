@@ -18,6 +18,15 @@
 .padding-top-bottom-40 {
   margin: 40px 0px; }
 
+.margin-top-bottom-40 {
+  margin: 40px 0; }
+
+.margin-top-40 {
+  margin: 40px 0 0 0; }
+
+.car-details-heading {
+  margin: 20px 0 80px 0; }
+
 .button-container {
   display: flex;
   justify-content: center; }
@@ -55,7 +64,8 @@
 .icon {
   padding-bottom: 5px;
   width: 24px;
-  padding-right: 5px; }
+  padding-right: 5px;
+  margin-right: 5px; }
 
 .checkbox {
   width: 20px;
@@ -86,7 +96,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   /*padding: 15vw;*/ }
 
@@ -237,6 +247,22 @@ a {
   font-weight: bold;
   color: #707070; }
 
+.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
+  min-width: 27px;
+  width: 25px;
+  height: 25px;
+  line-height: 24px; }
+
+.daterangepicker td.start-date.end-date {
+  border-radius: 50%; }
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #27E277; }
+
+.daterangepicker {
+  font-family: 'Lato', sans-serif;
+  width: auto; }
+
 /*Navbar*/
 .navbar-light .navbar-toggler {
   border: none; }
@@ -257,6 +283,71 @@ a {
 .rento-logo {
   width: 300px;
   margin-bottom: 50px; }
+
+.back-arrow {
+  height: 30px;
+  width: 15px; }
+
+.car-details-text {
+  color: #07131F;
+  font-size: 15px; }
+
+/*Checkboxes*/
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.container input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee; }
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc; }
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #27E277; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
 
 @media only screen and (min-width: 990px) {
   .mobile-only {

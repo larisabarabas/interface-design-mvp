@@ -14,9 +14,9 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light" id="navigation">
     <div class="nav navbar-nav navbar-left">
-    <a class="nav-link mobile-only" id="back-button" href="<?=$sLinkToPageBack ?? ''; ?>"><i class="fas fa-angle-left"></i></a>
+    <a class="nav-link mobile-only" id="back-button" href="<?=$sLinkToPageBack ?? ''; ?>"><img class="back-arrow" src="images/arrow-back.svg"></a>
     </div>
-    <a href="index.html" class="navbar-brand"><img class="header-logo" src="images/rento-logo-inversed-colors.svg"></a>
+    <a href="index.php" class="navbar-brand"><img class="header-logo" src="images/rento-logo-inversed-colors.svg"></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
