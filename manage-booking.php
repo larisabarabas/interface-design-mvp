@@ -23,8 +23,8 @@
         <p class="ui-widget-header">Fri, May 21, 10:00 AM</p>
     </div>
 
-
-    <h1 class="margin-bottom-1rem">Car details</h1>
+    <h1 class="text-center margin-bottom-1rem" id="car-details-padding-top">Car details</h1>
+    <div class="container text-center" id="car-details-container-padding-bottom">
         <div class="row padding-bottom-20">
             <div class="col text-left"><img class="icon" src="images/car-door.svg"/>5 doors</div>
             <div class="col text-left"><img class="icon" src="images/person.svg"/>4 seats</div>

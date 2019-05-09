@@ -237,6 +237,12 @@ a {
   font-weight: bold;
   color: #707070; }
 
+#car-details-padding-top {
+  margin-top: 20px; }
+
+#car-details-container-padding-bottom {
+  margin-bottom: 20px; }
+
 /*Navbar*/
 .navbar-light .navbar-toggler {
   border: none; }
