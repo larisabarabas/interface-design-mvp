@@ -3,39 +3,45 @@ $sLinkToPageBack = 'search-results.php';
   require_once 'top.php';
 ?>
 <div class="main-container">
-    <h1 class="text-center padding-top-bottom-40">Car details</h1>
+    <h1 class="text-center car-details-heading">Car details</h1>
     <div class="container text-center">
-        <div class="row padding-bottom-20">
+        <div class="row padding-bottom-40 car-details-text">
             <div class="col text-left"><img class="icon" src="images/car-door.svg"/>5 doors</div>
             <div class="col text-left"><img class="icon" src="images/person.svg"/>4 seats</div>
         </div>
-        <div class="row">
+        <div class="row margin-top-bottom-40 car-details-text">
             <div class="col text-left"><img class="icon" src="images/gears.svg"/>Manual</div>
             <div class="col text-left"><img class="icon" src="images/ac.svg"/>A/C</div>
         </div>
     </div>
 
-    <h1 class="text-center padding-top-bottom-40">Add extra equipment</h1>
-    <div class="container text-left">
+    <h1 class="text-center car-details-heading">Add extra equipment</h1>
+    <div class="container text-left car-details-text">
         <form>
         <div class="row padding-bottom-20">
             <div class="col inline-flex">
-                <input class="checkbox" type="checkbox" name="baby-seat"/>
-                <p class="check-text">Baby seat</p>
+                <label class="container">Baby seat
+                    <input class="checkbox" type="checkbox" name="baby-seat"/>
+                    <span class="checkmark"></span>
+                </label>
             </div>
             <div class="col inline-flex">
-                <input class="checkbox" type="checkbox" name="mobile-wifi"/>
-                <p class="check-text">Mobile Wi-Fi</p>
+                <label class="container">Mobile Wi-Fi
+                    <input class="checkbox" type="checkbox" name="mobile-wifi"/>
+                    <span class="checkmark"></span>
+                </label>
             </div>
         </div>
         <div class="row">
                 <div class="col inline-flex">
+                <label class="container">Hands free navigation
                     <input class="checkbox" type="checkbox" name="hands-free-nav"/>
-                    <p class="check-text">Hands free navigation</p>
+                    <span class="checkmark"></span>
+                </label>
                 </div>
         </div>
-        <div class="button-container padding-top-bottom-40">
-            <a  href="driver-details.php" class="btn btn-primary">Continue</a>
+        <div class="button-container padding-top-bottom-40 margin-top-40">
+            <a  href="driver-details.php" class="green-btn">Continue</a>
         </div>
 
         </form>
