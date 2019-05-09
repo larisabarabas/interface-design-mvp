@@ -3,6 +3,7 @@
 $primarygreen: #27E277;
 $gray: #A3A3A3;
 $darkergray: #707070;
+$textcolor: #07131F;
 
 .mobile-only{
     display: initial;
@@ -24,6 +25,10 @@ $darkergray: #707070;
     margin: 20px 40px;
 }
 
+.padding-top-bottom-20{
+    margin: 20px 0;
+}
+
 .padding-top-bottom-40{
     margin: 40px 0px;
 }
@@ -38,7 +43,7 @@ $darkergray: #707070;
 }
 
 .card-title{
-    color: #07131F;
+    color: $textcolor;
 }
 
 .info-link{
@@ -47,12 +52,12 @@ $darkergray: #707070;
 }
 
 .info-link p{
-    font-size: 12px;
-    
+    font-size: 13px;
+    margin-bottom: 0.5rem;
 }
 
 .info-link p:last-child{
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .car-info{
@@ -62,7 +67,7 @@ $darkergray: #707070;
 
 .price-info{
     margin:20px 0px;
-    color:#07131F;
+    color: $textcolor;
 }
 
 .price-info h4{
@@ -77,6 +82,7 @@ $darkergray: #707070;
     padding-bottom: 5px;
     width: 24px;
     padding-right: 5px;
+    margin-right: 5px;
 }
 
 .checkbox{
@@ -114,7 +120,6 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
     align-items: center;
     /*padding: 15vw;*/
 }
@@ -124,10 +129,11 @@ body{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
-    padding: 15px 0;
+    padding: 15px;
     width: 100%;
     margin: 10px 0; 
     text-decoration: none;
+    border-radius: 0;
 }
 
 
@@ -162,6 +168,10 @@ h1{
     margin-bottom: 1rem;
 }
 
+.margin-top-20px{
+    margin-top: 20px !important;
+}
+
 input{
     border: none;
     margin-bottom: 50px;
@@ -171,8 +181,6 @@ input{
     font-size: 17px;
     font-family: 'Lato', sans-serif;
     outline: none; 
-
-  
 }
 a{
     color: $primarygreen;
@@ -278,10 +286,46 @@ a{
     background-size: 27px 27px;
 }
 
+/*manage-booking.php*/
+
 #booking-reference{
     font-weight: bold;
     color: $darkergray;
 }
+
+#car-details{
+    font-size: 15px;
+    color: $textcolor;
+    margin-bottom: 20px;
+}
+
+#car-details-container-padding-bottom{
+    margin-bottom: 20px;
+}
+
+#baby-seat{
+    color: $textcolor;
+}
+
+.fsize-17{
+    font-size: 17px;
+}
+
+.booking-reference-container{
+    color: $textcolor;
+    p:first-child{
+        font-size: 17px;
+    }
+}
+
+/*search.php*/
+
+input#search-input{
+    width: auto !important;
+    margin-bottom: 0;
+}
+
+
 
 /*Navbar*/
 
