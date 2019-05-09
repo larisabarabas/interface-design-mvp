@@ -3,11 +3,6 @@
   require_once 'top.php';
 ?>
 
-    <nav>
-        <a href="index.php"><img class="back" src="images/arrow-back.svg"></a>
-        <a href="index.php"><img class="header-logo" src="images/rento-logo-inversed-colors.svg"></a>
-    </nav>
-
     <div class="main-container">
         <h1>Sign in</h1>
         <input type="text" placeholder="Email">

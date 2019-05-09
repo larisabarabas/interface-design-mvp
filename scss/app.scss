@@ -103,7 +103,7 @@ sup{
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     color: $gray;
 }
 .main-logo{
@@ -168,7 +168,7 @@ input{
     width: 100%;
     padding: 15px 0;
     border-bottom: 1px solid $gray;
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Lato', sans-serif;
     outline: none; 
 
@@ -312,6 +312,12 @@ a{
         display: none;
     }
     .green-btn{
+        width: 300px;
+    }
+    .main-container{
+        padding: 10vw 30vw;
+    }
+    .bottom-links{
         width: 300px;
     }
 }
