@@ -1,4 +1,5 @@
 <?php 
+$sLinkToPageBack = 'driver-details.php';
   require_once 'top.php';
 ?>
 
@@ -21,7 +22,7 @@
     </div>
     <input type="text" placeholder="CVV">
 </div>
-<a href="payment.php">Continue</a>
+<a href="confirmation.php">Continue</a>
 
 
 

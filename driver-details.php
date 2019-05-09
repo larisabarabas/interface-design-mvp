@@ -1,4 +1,5 @@
 <?php 
+$sLinkToPageBack = 'search-results.php';
   require_once 'top.php';
 ?>
 
