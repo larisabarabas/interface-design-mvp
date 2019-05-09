@@ -1,4 +1,5 @@
 <?php 
+$sLinkToPageBack = 'search.php';
   require_once 'top.php';
 ?>
 <div class="main-container">
@@ -18,7 +19,7 @@
             </div>
 
             <div class="button-container">
-                <a href="#" class="btn btn-primary">Book this car</a>
+                <a href="driver-details.php" class="btn btn-primary">Book this car</a>
             </div>
         </div>
     </div>
@@ -38,7 +39,7 @@
             </div>
 
             <div class="button-container">
-                <a href="#" class="btn btn-primary">Book this car</a>
+                <a href="driver-details.php" class="btn btn-primary">Book this car</a>
             </div>
         </div>
     </div>
@@ -58,7 +59,7 @@
             </div>
 
             <div class="button-container">
-                <a href="#" class="btn btn-primary">Book this car</a>
+                <a href="driver-details.php" class="btn btn-primary">Book this car</a>
             </div>
         </div>
     </div>
