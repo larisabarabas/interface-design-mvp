@@ -11,18 +11,17 @@ $sLinkToPageBack = 'driver-details.php';
     <p>Discount Codes<span class="align-right"></span></p>
     <p>Fees & Taxes<span class="align-right">$75.54</span></p>
     <p>Total<span class="align-right">$102.89</span></p>
-</div>
 
-<div class="main-container">
-    <h1>Credit Card & Billing Information</h1>
+    <h2>Credit Card & Billing Information</h2>
     <input type="text" placeholder="Card number">
-    <div>
-        <input type="date">
-        <input type="date">
+    <input type="text" placeholder="Cardholder name">
+    <div class="card-expiry-cvv">
+        <div class="expiry-container"><input placeholder="Month" type="text" class="expiry-date"><div class="slash">/</div><input placeholder="Year" type="text" class="expiry-date expiry-year"></div>
+        <input type="text" placeholder="CVV" class="cvv">
     </div>
-    <input type="text" placeholder="CVV">
+    
+    <a href="confirmation.php" class="green-btn">Continue</a>
 </div>
-<a href="confirmation.php">Continue</a>
 
 
 
