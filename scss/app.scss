@@ -23,6 +23,12 @@ $textcolor: #07131F;
 
 .main-container{
     margin: 20px 40px;
+    p{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: .6rem;
+    }
 }
 
 .padding-top-bottom-20{
@@ -173,6 +179,13 @@ h1{
     color: $primarygreen;
     font-size: 22px;
     margin-bottom: 80px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: $primarygreen;
+    font-size: 17px;
+    margin: 40px 0 20px 0;
 }
 
 .margin-bottom-1rem{
@@ -446,6 +459,34 @@ input#search-input{
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+  .card-expiry-cvv{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    input{
+        margin: 0;
+    }
+  }
+  .expiry-container{
+      display: flex;
+      align-items: flex-end;
+  }
+  .expiry-date{
+      width: 90px;
+      text-align: center;
+  }
+  .expiry-year{
+      padding-left: 5px;
+  }
+  .cvv{
+      width: 100px;
+      margin-left: 15px !important;
+  }
+  .slash{
+      height: 40px;
+      border-bottom: 1px solid $gray;
   }
 
 @media only screen and (min-width: 990px) { 
