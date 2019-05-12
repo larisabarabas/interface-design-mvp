@@ -5,12 +5,12 @@
 
 <div class="main-container">
 
-    <h1>Driver Details</h1>
-    <input type="text" placeholder="Name"><br>
-    <input type="text" placeholder="Last name"><br>
+    <h1 class="padding-top-bottom-40">Driver Details</h1>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Last name">
     <input type="text" id="date_ex" name="dob" placeholder="Birth date">
-    <input type="email" placeholder="Email"><br>
-    <input type="password" placeholder="Password"><br>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
     <a class="green-btn"href="payment.php">Continue</a>
 
     </div>

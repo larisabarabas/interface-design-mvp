@@ -4,7 +4,7 @@ $sLinkToPageBack = 'driver-details.php';
 ?>
 
 <div class="main-container">
-    <h1>Payment</h1>
+    <h1 class="padding-top-bottom-40">Payment</h1>
     <p>Base Rate<span class="align-right">$27.35</span></p>
     <p>Kilometers<span class="align-right">Unlimited</span></p>
     <p>Rental Options<span class="align-right">$0.00</span></p>
@@ -19,7 +19,7 @@ $sLinkToPageBack = 'driver-details.php';
         <div class="expiry-container"><input placeholder="Month" type="text" class="expiry-date"><div class="slash">/</div><input placeholder="Year" type="text" class="expiry-date expiry-year"></div>
         <input type="text" placeholder="CVV" class="cvv">
     </div>
-    
+
     <a href="confirmation.php" class="green-btn">Continue</a>
 </div>
 
