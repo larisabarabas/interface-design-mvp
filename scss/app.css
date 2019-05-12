@@ -120,6 +120,18 @@ body {
   text-decoration: none;
   border-radius: 0; }
 
+.applyBtn {
+  background-color: #27E277;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  padding: 15px;
+  border: none;
+  margin: 10px 0;
+  text-decoration: none;
+  border-radius: 0; }
+
 .buttons {
   display: flex;
   flex-direction: column;
@@ -258,9 +270,16 @@ a {
 .ui-datepicker .ui-datepicker-header {
   background: #27E277; }
 
-#date_ex {
+#date_ex,
+#pickUp,
+#pickOff {
   background: url(../images/calendar.svg) no-repeat right center;
   background-size: 27px 27px; }
+
+#strLocation {
+  background: url(../images/target.svg) no-repeat left center;
+  background-size: 27px 27px;
+  padding-left: 35px; }
 
 /*manage-booking.php*/
 #booking-reference {
