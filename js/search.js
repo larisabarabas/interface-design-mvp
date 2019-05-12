@@ -6,7 +6,8 @@ $('input[name="pickUp"]').daterangepicker({
     startDate: moment().startOf('hour'),
     endDate: moment().startOf('hour').add(32, 'hour'),
     locale: {
-    format: 'DD/MM/YY hh:mm A'
+    showCustomRangeLabel:"Date pick-up",
+    format: 'M/DD hh:mm A',
     }
 });
 });
@@ -26,3 +27,12 @@ $('input[name="pickOff"]').daterangepicker({
 function doSearch(){
     window.location.href = 'search-results.php';
 }
+
+// function showReturnLocationInput(){
+//     if(!$('#returnLocationCheck').checked){
+//         $('#customReturnLocation').removeClass('hidden');
+//     } else {
+//         $('#customReturnLocation').addClass('hidden')
+//     }
+// }
+console.log(document.getElementById('returnLocationCheck').checked )
