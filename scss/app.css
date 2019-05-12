@@ -93,7 +93,7 @@ sup {
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-size: 15px;
   color: #A3A3A3; }
 
@@ -160,9 +160,9 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
   color: #27E277;
-  font-size: 17px;
+  font-size: 16px;
   margin: 40px 0 20px 0; }
 
 .margin-bottom-1rem {
@@ -173,7 +173,7 @@ h2 {
 
 input {
   border: none;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   width: 100%;
   padding: 15px 0;
   border-bottom: 1px solid #A3A3A3;
@@ -425,11 +425,10 @@ input#search-input {
   align-items: flex-end; }
 
 .expiry-date {
-  width: 90px;
-  text-align: center; }
+  text-align: left; }
 
 .expiry-year {
-  padding-left: 5px; }
+  text-align: right; }
 
 .cvv {
   width: 100px;
@@ -438,6 +437,15 @@ input#search-input {
 .slash {
   height: 40px;
   border-bottom: 1px solid #A3A3A3; }
+
+.expiration {
+  border: 1px solid #bbb; }
+
+.expiration input {
+  border: 0;
+  text-align: center;
+  outline: 0;
+  /* remove if you want input highlight */ }
 
 @media only screen and (min-width: 990px) {
   .mobile-only {
