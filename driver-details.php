@@ -11,7 +11,7 @@
     <input type="text" id="date_ex" name="dob" placeholder="Birth date">
     <input type="email" placeholder="Email"><br>
     <input type="password" placeholder="Password"><br>
-    <a href="payment.php">Continue</a>
+    <a class="green-btn"href="payment.php">Continue</a>
 
     </div>
 <?php 

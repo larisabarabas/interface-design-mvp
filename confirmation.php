@@ -24,7 +24,7 @@ $sLinkToPageBack = 'search.php';
     </div>
 
     <div class="button-container">
-       <a> <button type="button" class="btn green-btn">Go to manage bookings</button></a>
+       <a href='manage-booking.php'> <button type="button" class="btn green-btn">Go to manage bookings</button></a>
     </div>
 </div>
 
