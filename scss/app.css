@@ -268,9 +268,9 @@ a {
   color: #707070; }
 
 .daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
-  min-width: 27px;
+  min-width: 30px;
   width: 25px;
-  height: 25px;
+  height: 30px;
   line-height: 24px; }
 
 .daterangepicker td.start-date.end-date {
@@ -419,6 +419,38 @@ input#search-input {
 .slash {
   height: 40px;
   border-bottom: 1px solid #A3A3A3; }
+
+.search-bar {
+  display: flex; }
+  .search-bar .green-btn {
+    align-self: flex-start;
+    margin-top: 0; }
+  .search-bar input[type="text"], .search-bar ::placeholder {
+    color: #07131F;
+    background-color: #F4F4F4;
+    border: none;
+    height: 55px;
+    margin-right: 10px;
+    padding: 15px 10px;
+    width: auto; }
+
+.location-input {
+  width: 700px !important; }
+
+.desktop-container {
+  padding: 15%; }
+
+.btn-primary {
+  background-color: #27E277;
+  border-color: #27E277; }
+
+.btn-group-sm > .btn, .btn-sm {
+  border-radius: 50px; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #27E277;
+  border-color: #27E277; }
 
 @media only screen and (min-width: 990px) {
   .mobile-only {

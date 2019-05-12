@@ -317,9 +317,9 @@ a{
     color: $darkergray;
 }
 .daterangepicker .calendar-table th, .daterangepicker .calendar-table td{
-    min-width: 27px;
+    min-width: 30px;
     width: 25px;
-    height: 25px;
+    height: 30px;
     line-height: 24px;
 }
 .daterangepicker td.start-date.end-date{
@@ -487,6 +487,41 @@ input#search-input{
   .slash{
       height: 40px;
       border-bottom: 1px solid $gray;
+  }
+
+  .search-bar{
+      display: flex;
+      .green-btn{
+        align-self: flex-start;
+        margin-top: 0;
+      }
+      input[type="text"], ::placeholder{
+          color: $textcolor;
+          background-color: #F4F4F4;
+          border: none;
+          height: 55px;
+          margin-right: 10px;
+          padding: 15px 10px;
+          width: auto;
+      }
+  }
+  .location-input{
+    width: 700px !important;
+  }
+  .desktop-container{
+      padding: 15%;
+  }
+  .btn-primary{
+      background-color: $primarygreen;
+      border-color: $primarygreen;
+  }
+  .btn-group-sm>.btn, .btn-sm{
+      border-radius: 50px;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: $primarygreen;
+    border-color: $primarygreen;
   }
 
 @media only screen and (min-width: 990px) { 
