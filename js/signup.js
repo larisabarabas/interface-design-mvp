@@ -29,6 +29,10 @@ function signUp(){
 
 $(function() {
     $('input[name="signUpBirthDate"]').daterangepicker({
+      autoUpdateInput: false,
+      locale: {
+          cancelLabel: 'Clear'
+      },
       singleDatePicker: true,
       showDropdowns: true,
       minYear: 1901,

@@ -17,6 +17,6 @@ btns.forEach(function(btn){
         localStorage.setItem('searchResultsCarName', carName);
         localStorage.setItem('searchResultsCarImgPath', carImgPath);
 
-        window.location.href = 'confirmation.php';
+        window.location.href = 'car-details.php';
     });
 });
