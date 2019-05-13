@@ -7,15 +7,15 @@ $sLinkToPageBack = 'search.php';
     <div class="card" >
         <img class="card-img-top" src="./images/2015-citroen-c1-airscape-feel-3door-microcar-black.png" alt="Card image cap">
         <div class="card-body">
-            <h1 class="card-title text-center">Mini Manual</h1>
+            <h1 class="card-title text-center">Mini Manual 1</h1>
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="price-info">
                 <h4 class="text-center"><sup>$</sup>27.35</h4>
             </div>
 
-            <div class="button-container">
-                <a href="car-details.php" class="green-btn">Book this car</a>
+            <div class="button-container" id="btn-book-1">
+                <a class="green-btn">Book this car</a>
             </div>
         </div>
     </div>
@@ -23,15 +23,15 @@ $sLinkToPageBack = 'search.php';
     <div class="card" >
         <img class="card-img-top" src="./images/2015-citroen-c1-airscape-feel-3door-microcar-black.png" alt="Card image cap">
         <div class="card-body">
-            <h1 class="card-title text-center">Mini Manual</h1>
+            <h1 class="card-title text-center">Mini Manual 2</h1>
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="price-info">
                 <h4 class="text-center"> <sup>$</sup>27.35</h4>
             </div>
 
-            <div class="button-container">
-                <a href="car-details.php" class="green-btn">Book this car</a>
+            <div class="button-container" id="btn-book-2">
+                <a class="green-btn">Book this car</a>
             </div>
         </div>
     </div>
@@ -39,15 +39,15 @@ $sLinkToPageBack = 'search.php';
     <div class="card" >
         <img class="card-img-top" src="./images/2015-citroen-c1-airscape-feel-3door-microcar-black.png" alt="Card image cap">
         <div class="card-body">
-            <h1 class="card-title text-center">Mini Manual</h1>
+            <h1 class="card-title text-center">Mini Manual 3</h1>
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="price-info">
                 <h4 class="text-center"><sup>$</sup>27.35</h4>
             </div>
 
-            <div class="button-container">
-                <a href="car-details.php" class="green-btn">Book this car</a>
+            <div class="button-container" id="btn-book-3">
+                <a class="green-btn">Book this car</a>
             </div>
         </div>
     </div>

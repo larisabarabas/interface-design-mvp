@@ -1,3 +1,4 @@
+console.log("log")
 
 $(function() {
 $('input[name="pickUp"]').daterangepicker({
@@ -25,7 +26,18 @@ $('input[name="pickOff"]').daterangepicker({
 });
 
 function doSearch(){
+    let searchPickupLocation = document.getElementById('strLocation').value;
+    let searchPickupDateTime = document.getElementById('pickUp').value;
+    let searchDropoffDateTime = document.getElementById('pickOff').value;
+
+    if(searchPickupLocation){
+        localStorage.setItem('searchPickupLocation', searchPickupLocation);
+        localStorage.setItem('searchPickupDateTime', searchPickupDateTime);
+        localStorage.setItem('searchDropoffDateTime', searchDropoffDateTime);
+    }
+
     window.location.href = 'search-results.php';
+
 }
 
 // function showReturnLocationInput(){
