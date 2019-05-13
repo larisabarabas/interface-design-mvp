@@ -31,6 +31,7 @@ $sLinkToPageBack = 'search.php';
 
 
 
+<script>document.getElementById('back-button').className += ' hidden';</script>
 
 <?php 
     require_once 'bottom.php';

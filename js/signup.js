@@ -29,7 +29,7 @@ function signUp(){
 
 $(function() {
     $('input[name="signUpBirthDate"]').daterangepicker({
-      autoUpdateInput: false,
+      autoUpdateInput: true,
       locale: {
           cancelLabel: 'Clear'
       },
