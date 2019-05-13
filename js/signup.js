@@ -7,16 +7,35 @@ function randomUniqueId() {
   }
 
 
+  // signUpBtn.classList.add('disabled-btn');
+  
+  // setInterval(function(){
+    //   if(signUpFirstName && signUpLastName && signUpBirthDate && signUpEmail && signUpPassword){
+      //     signUpBtn.classList.remove('disabled-btn');
+      //   }
+      // }, 2000)
+      
+let signUpBtn = document.getElementById('signupBtn');
+let signUpFirstName = document.getElementById('signUpFirstName').value;
+let signUpLastName = document.getElementById('signUpLastName').value;
+let signUpBirthDate = document.getElementById('signUpBirthDate').value;
+let signUpEmail = document.getElementById('signUpEmail').value;
+let signUpPassword = document.getElementById('signUpPassword').value;
+
+signUpBtn.removeAttribute('disabled');
+
+function checkValidation(){
+  // if(signUpFirstName!=='' && signUpLastName!=='' && signUpBirthDate!=='' && signUpEmail!=='' && signUpPassword!==''){
+  //   signUpBtn.removeAttribute('disabled');
+  // }
+}
 
 function signUp(){
-    let signUpFirstName = document.getElementById('signUpFirstName').value;
-    let signUpLastName = document.getElementById('signUpLastName').value;
-    let signUpBirthDate = document.getElementById('signUpBirthDate').value;
-    let signUpEmail = document.getElementById('signUpEmail').value;
-    let signUpPassword = document.getElementById('signUpPassword').value;
+    
     let userId = randomUniqueId();
 
     if(signUpFirstName && signUpLastName && signUpBirthDate && signUpEmail && signUpPassword){
+        signUpBtn.classList.remove('disabled-btn');
         localStorage.setItem('signUpFirstName',signUpFirstName);
         localStorage.setItem('signUpLastName',signUpLastName);
         localStorage.setItem('signUpBirthDate',signUpBirthDate);

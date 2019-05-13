@@ -8,7 +8,7 @@ $sLinkToPageBack = 'driver-details.php';
     <p>Base Rate<span class="align-right">$27.35</span></p>
     <p>Kilometers<span class="align-right">Unlimited</span></p>
     <p>Extras<span class="align-right">$0.00</span></p>
-    <p>VAT<span class="align-right">$75.54</span></p>
+    <p>VAT 25%<span class="align-right">$75.54</span></p>
     <p>Total<span class="align-right">$102.89</span></p>
 
     <h2>Credit Card & Billing Information</h2>
