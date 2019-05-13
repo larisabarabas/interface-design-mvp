@@ -693,6 +693,10 @@ h6{
     text-align: center;
     outline: 0; /* remove if you want input highlight */
 }
+.btn:hover, a:hover{
+    color: white;
+    text-decoration: none;
+}
 
 @media only screen and (min-width: 990px) { 
     .mobile-only{
