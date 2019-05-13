@@ -8,5 +8,4 @@ function showBooking(){
     } else {
         window.location.href = 'view-booking.php';
     }
-    
 }
