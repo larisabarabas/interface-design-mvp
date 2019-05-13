@@ -7,6 +7,29 @@ function randomUniqueId() {
 }
 
 
+  // signUpBtn.classList.add('disabled-btn');
+  
+  // setInterval(function(){
+    //   if(signUpFirstName && signUpLastName && signUpBirthDate && signUpEmail && signUpPassword){
+      //     signUpBtn.classList.remove('disabled-btn');
+      //   }
+      // }, 2000)
+      
+let signUpBtn = document.getElementById('signupBtn');
+
+
+// signUpBtn.removeAttribute('disabled');
+
+function checkValidation(){
+  let signUpFirstName = document.getElementById('signUpFirstName').value;
+  let signUpLastName = document.getElementById('signUpLastName').value;
+  let signUpBirthDate = document.getElementById('signUpBirthDate').value;
+  let signUpEmail = document.getElementById('signUpEmail').value;
+  let signUpPassword = document.getElementById('signUpPassword').value;
+  if(signUpFirstName!=='' && signUpLastName!=='' && signUpBirthDate!=='' && signUpEmail!=='' && signUpPassword!==''){
+    signUpBtn.removeAttribute('disabled');
+  }
+}
 
 function signUp() {
   let signUpFirstName = document.getElementById('signUpFirstName').value;
@@ -16,29 +39,30 @@ function signUp() {
   let signUpPassword = document.getElementById('signUpPassword').value;
   let userId = randomUniqueId();
 
-  if (signUpFirstName && signUpLastName && signUpBirthDate && signUpEmail && signUpPassword) {
-    localStorage.setItem('signUpFirstName', signUpFirstName);
-    localStorage.setItem('signUpLastName', signUpLastName);
-    localStorage.setItem('signUpBirthDate', signUpBirthDate);
-    localStorage.setItem('signUpEmail', signUpEmail);
-    localStorage.setItem('signUpPassword', signUpPassword);
-    localStorage.setItem('userId', userId);
-    window.location.href = 'search.php'
-  }
+    if(signUpFirstName && signUpLastName && signUpBirthDate && signUpEmail && signUpPassword){
+        signUpBtn.classList.remove('disabled-btn');
+        localStorage.setItem('signUpFirstName',signUpFirstName);
+        localStorage.setItem('signUpLastName',signUpLastName);
+        localStorage.setItem('signUpBirthDate',signUpBirthDate);
+        localStorage.setItem('signUpEmail',signUpEmail);
+        localStorage.setItem('signUpPassword',signUpPassword);
+        localStorage.setItem('userId',userId);
+        window.location.href = 'search.php'
+    }
 }
 
-$(function () {
-  $('input[name="signUpBirthDate"]').daterangepicker({
-    autoUpdateInput: true,
-    locale: {
-      cancelLabel: 'Clear'
-    },
-    singleDatePicker: true,
-    showDropdowns: true,
-    minYear: 1901,
-    maxYear: parseInt(moment().format('YYYY'), 10)
-  }, function (start, end, label) {
-    var years = moment().diff(start, 'years');
-    //alert("You are " + years + " years old!");
+$(function() {
+    $('input[name="signUpBirthDate"]').daterangepicker({
+      autoUpdateInput: true,
+      locale: {
+          cancelLabel: 'Clear'
+      },
+      singleDatePicker: true,
+      showDropdowns: true,
+      minYear: 1901,
+      maxYear: parseInt(moment().format('YYYY'),10)
+    }, function(start, end, label) {
+      var years = moment().diff(start, 'years');
+      //alert("You are " + years + " years old!");
+    });
   });
-});

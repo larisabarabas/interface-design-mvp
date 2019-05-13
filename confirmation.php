@@ -38,6 +38,7 @@ $sLinkToPageBack = 'search.php';
 
 
 
+<script>document.getElementById('back-button').className += ' hidden';</script>
 
 <?php 
     $sLinkToScript = '<script src="js/confirmation.js"></script>';
