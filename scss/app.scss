@@ -163,8 +163,18 @@ body{
     margin: 10px 0; 
     text-decoration: none;
     border-radius: 0;
+    font-weight: 400;
 }
-
+.disabled-btn{
+    background-color: $border-color;
+}
+.swal-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+.swal-button:not([disabled]):hover {
+    background-color: $primarygreen;
+}
 .applyBtn{
     background-color: $primarygreen;
     text-align: center;
@@ -736,6 +746,9 @@ h6{
     h5{
         font-size: 17px;
     }
+}
+.index-box{
+    height: 90vh;
 }
 
 @media only screen and (min-width: 990px) { 

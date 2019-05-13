@@ -5,7 +5,7 @@
 
         <input type="checkbox" checked data-toggle="toggle"> -->
 
-  <div class="main-container">
+  <div class="main-container index-box">
     <img class="rento-logo" src="images/rento-logo.svg" alt="">
     <a href="sign-in.php" class="green-btn">Sign in</a>
     <a href="search.php" class="green-btn">Book a car</a>

@@ -128,7 +128,18 @@ body {
   width: 100%;
   margin: 10px 0;
   text-decoration: none;
-  border-radius: 0; }
+  border-radius: 0;
+  font-weight: 400; }
+
+.disabled-btn {
+  background-color: #D8D8D8; }
+
+.swal-button:focus {
+  outline: none;
+  box-shadow: none; }
+
+.swal-button:not([disabled]):hover {
+  background-color: #27E277; }
 
 .applyBtn {
   background-color: #27E277;
@@ -641,6 +652,9 @@ h6 {
     margin-top: 20px; }
   .profile-box h5 {
     font-size: 17px; }
+
+.index-box {
+  height: 90vh; }
 
 @media only screen and (min-width: 990px) {
   .mobile-only {

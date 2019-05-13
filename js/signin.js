@@ -47,7 +47,7 @@ function login(){
             button:{
                 text:'Take me to sign up',
                 className:'green-btn'
-            }
+            },
           }).then(()=>{
             takeMeToSignUp()
           });
@@ -76,17 +76,26 @@ function changePassword(){
             type: "text",
           },
         },
+        button:{
+          className:'green-btn'
+        },
       });
 
       document.querySelector(".swal-button--confirm").addEventListener("click", ()=>{
         if(document.querySelector(".swal-content__input").value == "") {
             swal({
-                text: "Please enter your email address."
+                text: "Please enter your email address.",
+                button:{
+                  className:'green-btn'
+                },
             });
         } else {
             swal({
                 icon: "success",
-                title: "An email has been sent to you for resetting your password."
+                title: "An email has been sent to you for resetting your password.",
+                button:{
+                  className:'green-btn'
+                },
             });
         }
       })
