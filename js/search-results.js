@@ -13,10 +13,12 @@ btns.forEach(function (btn) {
     btn.addEventListener("click", () => {
         let carName = btn.parentElement.childNodes[0].nextElementSibling.innerText;
         let carImgPath = btn.parentElement.parentElement.childNodes[0].nextElementSibling.src;
+        let carPrice = btn.parentElement.childNodes[5].lastElementChild.childNodes[0].innerText;
 
+    
         localStorage.setItem('searchResultsCarName', carName);
         localStorage.setItem('searchResultsCarImgPath', carImgPath);
-
+        localStorage.setItem('searchResultsCarPrice', carPrice);
         window.location.href = 'car-details.php';
     });
 });

@@ -29,22 +29,27 @@ function doSearch(){
     let searchPickupLocation = document.getElementById('strLocation').value;
     let searchPickupDateTime = document.getElementById('pickUp').value;
     let searchDropoffDateTime = document.getElementById('pickOff').value;
+    let searchReturnLocation =  document.getElementById('returnLocation').value;
 
     if(searchPickupLocation){
         localStorage.setItem('searchPickupLocation', searchPickupLocation);
         localStorage.setItem('searchPickupDateTime', searchPickupDateTime);
         localStorage.setItem('searchDropoffDateTime', searchDropoffDateTime);
+        if(searchReturnLocation){
+            localStorage.setItem('searchReturnLocation', searchReturnLocation);
+        }
     }
 
     window.location.href = 'search-results.php';
 
 }
 
-// function showReturnLocationInput(){
-//     if(!$('#returnLocationCheck').checked){
-//         $('#customReturnLocation').removeClass('hidden');
-//     } else {
-//         $('#customReturnLocation').addClass('hidden')
-//     }
-// }
+function showReturnLocationInput(){
+    if(!document.getElementById('returnLocationCheck').checked){
+        $('#customReturnLocation').removeClass('hidden');
+    } 
+    if(document.getElementById('returnLocationCheck').checked) {
+        $('#customReturnLocation').addClass(' hidden')
+    }
+}
 console.log(document.getElementById('returnLocationCheck').checked )

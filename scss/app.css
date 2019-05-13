@@ -121,7 +121,7 @@ body {
 .green-btn {
   background-color: #27E277;
   text-align: center;
-  color: white;
+  color: white !important;
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   padding: 15px;
@@ -180,6 +180,9 @@ h2 {
 
 .margin-top-20px {
   margin-top: 20px !important; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
 
 input {
   border: none;
@@ -282,11 +285,14 @@ a {
 
 #date_ex,
 #pickUp,
-#pickOff {
+#pickOff,
+#driverDetailsBirthDate,
+#signUpBirthDate {
   background: url(../images/calendar.svg) no-repeat right center;
   background-size: 27px 27px; }
 
-#strLocation {
+#strLocation,
+#returnLocation {
   background: url(../images/target.svg) no-repeat left center;
   background-size: 27px 27px;
   padding-left: 35px; }
