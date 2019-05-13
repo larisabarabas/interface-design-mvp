@@ -6,19 +6,9 @@ function randomUniqueId() {
   });
 }
 
-
-  // signUpBtn.classList.add('disabled-btn');
-  
-  // setInterval(function(){
-    //   if(signUpFirstName && signUpLastName && signUpBirthDate && signUpEmail && signUpPassword){
-      //     signUpBtn.classList.remove('disabled-btn');
-      //   }
-      // }, 2000)
       
 let signUpBtn = document.getElementById('signupBtn');
 
-
-// signUpBtn.removeAttribute('disabled');
 
 function checkValidation(){
   let signUpFirstName = document.getElementById('signUpFirstName').value;
@@ -47,7 +37,12 @@ function signUp() {
         localStorage.setItem('signUpEmail',signUpEmail);
         localStorage.setItem('signUpPassword',signUpPassword);
         localStorage.setItem('userId',userId);
-        window.location.href = 'search.php'
+        swal({
+          icon: "success",
+          text: 'You have been successfully resgistered'
+        }).then(()=>{
+          window.location.href = 'search.php'
+        })
     }
 }
 

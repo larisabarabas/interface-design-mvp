@@ -46,6 +46,11 @@ function pay(){
         localStorage.setItem('paymentCardHolder', paymentCardHolder);
         localStorage.setItem('paymentCardExpiryYear', paymentCardExpiryYear);
         localStorage.setItem('paymentCardExpiryMonth', paymentCardExpiryMonth);
-        window.location.href = 'confirmation.php'
+        swal({
+            icon: "success",
+            text: "Payment success"
+          }).then(()=>{
+              window.location.href = 'confirmation.php'
+          });
 }
 
