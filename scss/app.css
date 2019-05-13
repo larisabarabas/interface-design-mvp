@@ -292,7 +292,7 @@ a {
   padding-left: 35px; }
 
 /*manage-booking.php*/
-#booking-reference {
+.booking-reference {
   font-weight: bold;
   color: #707070; }
 
@@ -603,6 +603,9 @@ h6 {
   color: #07131F;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif; }
+
+.swal-title {
+  font-size: 17px !important; }
 
 .expiration {
   border: 1px solid #bbb; }

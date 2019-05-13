@@ -4,12 +4,12 @@
 ?>
 
 <div class="main-container">
-    <h1 class="margin-bottom-1rem">View booking</h1>
+    <h1 class="margin-bottom-1rem">View Booking</h1>
     <div class="card" >
         <img class="card-img-top" src="./images/2015-citroen-c1-airscape-feel-3door-microcar-black.png" alt="Card image cap">
         <div class="card-body">
             <h1 class="text-center card-title">Mini manual</h1>
-            <p class="card-text car-info">Booking reference: <span id="booking-reference">KEA2019</span></p>
+            <p class="card-text car-info">Booking reference: <span class="booking-reference">KEA2019</span></p>
         </div>
     </div>
     <div class="card info-link">

@@ -9,11 +9,11 @@ let btns = [btnBookCar1, btnBookCar2, btnBookCar3];
 let carName = btnBookCar1.parentElement.childNodes[0].nextElementSibling.innerText;
 let carImgPath = btnBookCar1.parentElement.parentElement.childNodes[0].nextElementSibling.src;
 
-btns.forEach(function(btn){
-    btn.addEventListener("click", ()=>{
+btns.forEach(function (btn) {
+    btn.addEventListener("click", () => {
         let carName = btn.parentElement.childNodes[0].nextElementSibling.innerText;
         let carImgPath = btn.parentElement.parentElement.childNodes[0].nextElementSibling.src;
-    
+
         localStorage.setItem('searchResultsCarName', carName);
         localStorage.setItem('searchResultsCarImgPath', carImgPath);
 

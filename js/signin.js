@@ -50,3 +50,30 @@ function randomUniqueId() {
       return v.toString(16);
     });
   }
+
+
+function changePassword(){
+    swal({
+        text: "We will send you an email with the password reset link to:",
+        content: {
+          element: "input",
+          attributes: {
+            placeholder: "Type your email",
+            type: "text",
+          },
+        },
+      });
+
+      document.querySelector(".swal-button--confirm").addEventListener("click", ()=>{
+        if(document.querySelector(".swal-content__input").value == "") {
+            swal({
+                text: "Please enter your email address."
+            });
+        } else {
+            swal({
+                icon: "success",
+                title: "An email has been sent to you for resetting your password."
+            });
+        }
+      })
+}

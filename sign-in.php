@@ -9,7 +9,7 @@
         <input type="password" placeholder="Password" id="loginPassword">
         <a class="green-btn" onclick='login()'>Sign in</a>
         <div class="bottom-links">
-            <a href="#">Forgot password?</a>
+            <span onclick="changePassword()">Forgot password?</span>
             <a href="sign-up.php">Sign up</a>
         </div>
     </div>

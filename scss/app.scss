@@ -347,7 +347,7 @@ a{
 // }
 /*manage-booking.php*/
 
-#booking-reference{
+.booking-reference{
     font-weight: bold;
     color: $darkergray;
 }
@@ -693,6 +693,10 @@ h6{
     color: $textcolor;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+}
+
+.swal-title{
+    font-size: 17px !important;
 }
 
 
