@@ -3,7 +3,15 @@ $sLinkToPageBack = 'search-results.php';
   require_once 'top.php';
 ?>
 <div class="main-container">
+    
     <h1 class="text-center car-details-heading">Car details</h1>
+    <div>
+        <div class="container text-center car-info">
+            <img id="chosen-car-image" class="car-image" src="" alt="">
+        </div>
+        <h1 id="chosen-car-title" class="text-center card-title"></h1>
+    </div>
+
     <div class="container text-center">
         <div class="row padding-bottom-40 car-details-text">
             <div class="col text-left"><img class="icon" src="images/car-door.svg"/>5 doors</div>

@@ -32,12 +32,12 @@
         <a class="nav-link" href="search.php">Search for a car</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">My profile</a>
+        <a class="nav-link" href="#" id="profile-or-sign-in">Sign in</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="view-booking.php">View booking</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item hidden" id="logout" onclick="logout()">
         <a class="nav-link" href="index.php">Logout</a>
     </li>
     </ul>

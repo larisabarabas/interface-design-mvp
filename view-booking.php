@@ -6,21 +6,21 @@
 <div class="main-container">
     <h1 class="margin-bottom-1rem">View Booking</h1>
     <div class="card" >
-        <img class="card-img-top" src="./images/2015-citroen-c1-airscape-feel-3door-microcar-black.png" alt="Card image cap">
+        <img id="chosen-car-image" class="card-img-top" src="" alt="Card image cap">
         <div class="card-body">
-            <h1 class="text-center card-title">Mini manual</h1>
+            <h1 id="chosen-car-title" class="text-center card-title"></h1>
             <p class="card-text car-info">Booking reference: <span class="booking-reference">KEA2019</span></p>
         </div>
     </div>
     <div class="card info-link">
         <h1 class="margin-bottom-1rem">Pickup</h1>
         <p>Copenhagen Airport, CPH</p>
-        <p class="ui-widget-header">Fri, May 21, 10:00 AM</p>
+        <p id="chosen-pickup" class="ui-widget-header"></p>
     </div>
     <div class="card info-link">
         <h1 class="margin-bottom-1rem">Return</h1>
         <p>Copenhagen Airport, CPH</p>
-        <p class="ui-widget-header margin-bottom-20px">Fri, May 21, 10:00 AM</p>
+        <p id="chosen-dropoff" class="ui-widget-header margin-bottom-20px"></p>
     </div>
 
     <h1 class="text-center margin-bottom-1rem margin-top-20px fsize-17" id="car-details-padding-top">Car details</h1>
@@ -46,5 +46,7 @@
 </div>
 
 <?php 
+    $sLinkToScript = '<script src="js/car-details.js"></script>';
+    $sLinkToScript = '<script src="js/confirmation.js"></script>';
     require_once 'bottom.php';
 ?>
