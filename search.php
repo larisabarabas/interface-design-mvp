@@ -5,17 +5,18 @@
     <h1 class="text-center padding-top-bottom-40">Pickup location</h1>
     <form>
         <div class="form-group">
-            <input type="text" id="strLocation" placeholder="Location">
+            <input type="text" id="strLocation" placeholder="Pick-up Location">
+        </div>
+        <div class="form-group hidden" id="customReturnLocation">
+            <input type="text" id="returnLocation" placeholder="Return Location">
         </div>
         <div class="col inline-flex">
                 <label class="container">Return to the same location
-                    <input class="checkbox" type="checkbox" onchange="showReturnLocationInput()" name="returnLocation" id="returnLocationCheck" checked/>
+                    <input class="checkbox" type="checkbox" onclick="showReturnLocationInput()" name="returnLocation" id="returnLocationCheck" checked/>
                     <span class="checkmark"></span>
                 </label>
         </div>
-        <div class="form-group hidden" id="customReturnLocation">
-            <input type="text" id="strLocation" placeholder="Location">
-        </div>
+        
         <h1 class="text-center padding-top-bottom-40">Pick-up/drop-off dates</h1>
         <div class="form-group">
             <label for="pickUp">Pick-up date</label>

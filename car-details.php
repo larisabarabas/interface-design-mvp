@@ -21,13 +21,13 @@ $sLinkToPageBack = 'search-results.php';
         <div class="row padding-bottom-20">
             <div class="col inline-flex">
                 <label class="container">Baby seat
-                    <input class="checkbox" type="checkbox" name="baby-seat"/>
+                    <input class="checkbox" type="checkbox" id="babySeat" name="baby-seat"/>
                     <span class="checkmark"></span>
                 </label>
             </div>
             <div class="col inline-flex">
                 <label class="container">Mobile Wi-Fi
-                    <input class="checkbox" type="checkbox" name="mobile-wifi"/>
+                    <input class="checkbox" type="checkbox" id="mobileWifi" name="mobile-wifi"/>
                     <span class="checkmark"></span>
                 </label>
             </div>
@@ -35,13 +35,13 @@ $sLinkToPageBack = 'search-results.php';
         <div class="row">
                 <div class="col inline-flex">
                 <label class="container">Hands free navigation
-                    <input class="checkbox" type="checkbox" name="hands-free-nav"/>
+                    <input class="checkbox" type="checkbox" id="handsFreeNav" name="hands-free-nav"/>
                     <span class="checkmark"></span>
                 </label>
                 </div>
         </div>
         <div class="button-container padding-top-bottom-40 margin-top-40">
-            <a  href="driver-details.php" class="green-btn">Continue</a>
+            <a  onclick="addExtras()" class="green-btn">Continue</a>
         </div>
 
         </form>
@@ -51,6 +51,6 @@ $sLinkToPageBack = 'search-results.php';
       
 
 <?php 
- $sLinkToScript = '<script src="js/search-results.js"></script>';
+ $sLinkToScript = '<script src="js/car-details.js"></script>';
   require_once 'bottom.php';
 ?>
