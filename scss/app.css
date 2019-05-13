@@ -636,6 +636,9 @@ h6 {
   .profile-box h5 {
     font-size: 17px; }
 
+.index-box {
+  height: 90vh; }
+
 @media only screen and (min-width: 990px) {
   .mobile-only {
     display: none; }
