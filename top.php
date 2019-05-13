@@ -29,13 +29,13 @@
     </ul>
     <ul class=" nav navbar-nav navbar-right">
     <li class="nav-item">
-        <a class="nav-link" href="search.php">Search</a>
+        <a class="nav-link" href="search.php">Search for a car</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Profile</a>
+        <a class="nav-link" href="#">My profile</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="manage-booking.php">Manage Booking</a>
+        <a class="nav-link" href="view-booking.php">View booking</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="index.php">Logout</a>

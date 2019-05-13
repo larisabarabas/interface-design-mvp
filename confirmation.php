@@ -8,7 +8,7 @@ $sLinkToPageBack = 'search.php';
   <h1 class="text-center padding-top-bottom-20">Car successfully booked!</h1>
 
   <div class="card info-link booking-reference-container">
-    <p>Booking reference: </p>
+    <p>Booking reference:<span>&nbsp;KEA2019</span></p>
     <p>Total: XXX $</p>
   </div>
 
@@ -24,7 +24,7 @@ $sLinkToPageBack = 'search.php';
     </div>
 
     <div class="button-container">
-       <a href='manage-booking.php'> <button type="button" class="btn green-btn">Go to manage bookings</button></a>
+       <a href='view-booking.php'> <button type="button" class="btn green-btn">Go to manage bookings</button></a>
     </div>
 </div>
 
