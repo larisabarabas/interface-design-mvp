@@ -8,7 +8,7 @@ $('input[name="pickUp"]').daterangepicker({
     endDate: moment().startOf('hour').add(32, 'hour'),
     locale: {
     showCustomRangeLabel:"Date pick-up",
-    format: 'M/DD hh:mm A',
+    format: 'MMMM D, YYYY hh:mm A',
     }
 });
 });
@@ -20,7 +20,7 @@ $('input[name="pickOff"]').daterangepicker({
     startDate: moment().startOf('hour'),
     endDate: moment().startOf('hour').add(32, 'hour'),
     locale: {
-    format: 'M/DD hh:mm A'
+    format: 'MMMM D, YYYY hh:mm A'
     }
 });
 });
