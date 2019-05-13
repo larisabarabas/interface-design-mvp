@@ -42,13 +42,24 @@ $border-color: #D8D8D8;
 .margin-top-bottom-40{
     margin: 40px 0;
 }
+.margin-top-bottom-20{
+    margin: 20px 0;
+}
 .margin-top-40{
     margin: 40px 0 0 0;
 }
 
 
 .car-details-heading{
-    margin: 20px 0 80px 0;
+    margin: 20px 0 30px 0;
+}
+
+.small-text{
+    margin-bottom: 30px;
+    color: $gray;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5em;
 }
 
 .button-container{
@@ -696,6 +707,28 @@ h6{
     border: 0;
     text-align: center;
     outline: 0; /* remove if you want input highlight */
+}
+.btn:hover, a:hover{
+    color: white;
+    text-decoration: none;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+.profile-icon{
+    height: 200px;
+}
+.profile-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    h6{
+        margin-top: 20px;
+    }
+    h5{
+        font-size: 17px;
+    }
 }
 
 @media only screen and (min-width: 990px) { 
