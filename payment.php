@@ -25,5 +25,6 @@ $sLinkToPageBack = 'driver-details.php';
 
 
 <?php 
+    $sLinkToScript = '<script src="js/driver-details.js"></script>';
     require_once 'bottom.php';
 ?>
