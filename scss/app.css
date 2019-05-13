@@ -425,19 +425,21 @@ input#search-input {
   align-items: flex-end; }
 
 .expiry-date {
-  width: 90px;
-  text-align: center; }
+  width: 90px !important;
+  text-align: center;
+  margin-right: 0 !important; }
 
 .expiry-year {
   padding-left: 5px; }
 
 .cvv {
-  width: 100px;
+  width: 100px !important;
   margin-left: 15px !important; }
 
 .slash {
   height: 40px;
-  border-bottom: 1px solid #A3A3A3; }
+  border-bottom: 1px solid #A3A3A3;
+  color: #A3A3A3; }
 
 .search-bar {
   display: flex; }
@@ -452,12 +454,21 @@ input#search-input {
     margin-right: 10px;
     padding: 15px 10px;
     width: auto; }
+  .search-bar #pickUp, .search-bar #pickOff {
+    background: url(../images/calendar-black.svg) no-repeat 10px center;
+    background-size: 27px 27px;
+    padding-left: 50px;
+    background-color: #F4F4F4; }
 
 .location-input {
-  width: 700px !important; }
+  width: 700px !important;
+  width: 700px !important;
+  background: url(../images/location.svg) no-repeat scroll 10px 13px;
+  padding-left: 50px !important;
+  background-size: 30px; }
 
 .desktop-container {
-  padding: 15%; }
+  padding: 5% 8%; }
 
 .btn-primary {
   background-color: #27E277;
@@ -471,17 +482,138 @@ input#search-input {
   background-color: #27E277;
   border-color: #27E277; }
 
+.car-card {
+  color: #07131F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  margin-bottom: 40px;
+  margin-top: 30px; }
+
+.car-image img {
+  height: 150px; }
+
+.black-heading {
+  color: black; }
+
+h1 {
+  margin-bottom: 10px; }
+
+h4 {
+  font-size: 17px;
+  color: #707070; }
+
+.car-features {
+  display: flex;
+  margin: 20px 0 40px 0; }
+
+.car-text {
+  width: 40vw;
+  margin-left: 20px; }
+
+.car-pay {
+  width: 17vw; }
+
+.extra-equipment {
+  display: flex;
+  margin-top: 20px; }
+
+.price {
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px; }
+
+sup {
+  vertical-align: middle; }
+
+.reservation-details {
+  display: flex;
+  margin-top: 50px;
+  color: #07131F;
+  border-bottom: 1px solid #D8D8D8;
+  align-items: center;
+  margin-bottom: 50px; }
+  .reservation-details .pickup, .reservation-details .return {
+    flex: 1; }
+  .reservation-details .return {
+    border-left: 1px solid #D8D8D8;
+    padding-left: 35px; }
+  .reservation-details p {
+    margin-bottom: 5px; }
+  .reservation-details .car-info {
+    display: flex;
+    text-align: left;
+    height: 300px;
+    align-items: center;
+    font-size: 17px; }
+  .reservation-details .car-image {
+    flex: 1; }
+  .reservation-details .car-text {
+    flex: 2; }
+  .reservation-details .total-info {
+    border-left: 1px solid #D8D8D8;
+    height: 400px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    width: 22vw;
+    line-height: 2.5; }
+  .reservation-details .total-amount {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px; }
+  .reservation-details input {
+    width: auto;
+    width: 290px;
+    margin-right: 30px; }
+
+.pay-btn {
+  left: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  padding: 15px 50px !important; }
+
+.row.reservation-details {
+  border-bottom: none;
+  margin-left: 0;
+  margin-right: 0; }
+
+.pickup-return {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #D8D8D8;
+  height: 135px;
+  align-items: center; }
+
+h6 {
+  font-size: 22px;
+  color: #07131F;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif; }
+
 @media only screen and (min-width: 990px) {
   .mobile-only {
     display: none; }
 
   .green-btn {
-    width: 300px; }
+    width: 300px;
+    padding: 15px 30px; }
 
   .main-container {
     padding: 10vw 30vw; }
 
   .bottom-links {
-    width: 300px; } }
+    width: 300px; }
+
+  input {
+    margin-bottom: 10px; }
+
+  .container {
+    display: inline; } }
 
 /*# sourceMappingURL=app.css.map */

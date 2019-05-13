@@ -13,7 +13,7 @@
     <input type="password" placeholder="Password"><br>
     <a class="green-btn"href="payment.php">Continue</a>
 
-    </div>
+</div>
 <?php 
     $sLinkToScript = '<script src="js/signup.js"></script>';
     require_once 'bottom.php';
