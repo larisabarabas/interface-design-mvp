@@ -5,13 +5,13 @@
 
     <div class="main-container">
         <h1>Sign up</h1>
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="Last name">
-        <input type="text" id="date_ex" name="dob" placeholder="Birth date">
-        <input type="text" placeholder="Email">
-        <input type="password" placeholder="Password">
+        <input type="text" id="signUpFirstName" placeholder="First Name">
+        <input type="text" id="signUpLastName" placeholder="Last name">
+        <input type="text" id="signUpBirthDate" name="signUpBirthDate" placeholder="Birth date">
+        <input type="text" id="signUpEmail" placeholder="Email">
+        <input type="password" id="signUpPassword" placeholder="Password">
 
-        <a href="search.php" class="green-btn">Sign up</a>
+        <a onclick="signUp()" class="green-btn">Sign up</a>
 
     </div>
 
