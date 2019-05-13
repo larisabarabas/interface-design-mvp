@@ -9,39 +9,43 @@ $sLinkToPageBack = 'search-results.php';
             <div class="col text-left"><img class="icon" src="images/car-door.svg"/>5 doors</div>
             <div class="col text-left"><img class="icon" src="images/person.svg"/>4 seats</div>
         </div>
-        <div class="row margin-top-bottom-40 car-details-text">
+        <div class="row margin-top-bottom-20 car-details-text">
             <div class="col text-left"><img class="icon" src="images/gears.svg"/>Manual</div>
             <div class="col text-left"><img class="icon" src="images/ac.svg"/>A/C</div>
         </div>
     </div>
+    <h4 class="small-text">The car is delivered with a full tank. Our policy is that the car should be returned with the same amount that of gas that was there on delivery.</h4>
 
-    <h1 class="text-center car-details-heading">Add extra equipment</h1>
+    <h1 class="text-center car-details-heading">Add extras</h1>
+    
     <div class="container text-left car-details-text">
         <form>
         <div class="row padding-bottom-20">
             <div class="col inline-flex">
                 <label class="container">Baby seat
-                    <input class="checkbox" type="checkbox" name="baby-seat"/>
+                    <input class="checkbox" type="checkbox" id="babySeat" name="baby-seat"/>
                     <span class="checkmark"></span>
                 </label>
             </div>
             <div class="col inline-flex">
                 <label class="container">Mobile Wi-Fi
-                    <input class="checkbox" type="checkbox" name="mobile-wifi"/>
+                    <input class="checkbox" type="checkbox" id="mobileWifi" name="mobile-wifi"/>
                     <span class="checkmark"></span>
                 </label>
             </div>
         </div>
-        <div class="row">
+        <div class="row margin-bottom-30">
                 <div class="col inline-flex">
                 <label class="container">Hands free navigation
-                    <input class="checkbox" type="checkbox" name="hands-free-nav"/>
+                    <input class="checkbox" type="checkbox" id="handsFreeNav" name="hands-free-nav"/>
                     <span class="checkmark"></span>
                 </label>
                 </div>
         </div>
+
+        <h4 class="small-text">Each extra costs 100 DKK</h4>
         <div class="button-container padding-top-bottom-40 margin-top-40">
-            <a  href="driver-details.php" class="green-btn">Continue</a>
+            <a  onclick="addExtras()" class="green-btn">Continue</a>
         </div>
 
         </form>
@@ -51,6 +55,6 @@ $sLinkToPageBack = 'search-results.php';
       
 
 <?php 
- $sLinkToScript = '<script src="js/search-results.js"></script>';
+ $sLinkToScript = '<script src="js/car-details.js"></script>';
   require_once 'bottom.php';
 ?>

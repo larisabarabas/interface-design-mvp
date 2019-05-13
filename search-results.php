@@ -11,7 +11,7 @@ $sLinkToPageBack = 'search.php';
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="price-info">
-                <h4 class="text-center"><sup>$</sup>27.35</h4>
+                <h4 class="text-center"><span id="carPrice">215</span>DKK</h4>
             </div>
 
             <div class="button-container" id="btn-book-1">
@@ -27,7 +27,7 @@ $sLinkToPageBack = 'search.php';
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="price-info">
-                <h4 class="text-center"> <sup>$</sup>27.35</h4>
+                <h4 class="text-center"><span id="carPrice">250</span> DKK</h4>
             </div>
 
             <div class="button-container" id="btn-book-2">
@@ -43,7 +43,7 @@ $sLinkToPageBack = 'search.php';
             <p class="card-text car-info">Citroen C1 or similar | Manual transmission</p>
 
             <div class="price-info">
-                <h4 class="text-center"><sup>$</sup>27.35</h4>
+                <h4 class="text-center"><span id="carPrice">300</span> DKK</h4>
             </div>
 
             <div class="button-container" id="btn-book-3">

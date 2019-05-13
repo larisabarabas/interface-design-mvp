@@ -40,9 +40,23 @@ function login(){
         localStorage.setItem('loginEmail', email);
         localStorage.setItem('loginPassword', password);
         window.location.href = 'search.php'
+    } else {
+        swal({
+            icon: "warning",
+            text:"It seems like you're not in our system",
+            button:{
+                text:'Take me to sign up',
+                className:'green-btn'
+            }
+          }).then(()=>{
+            takeMeToSignUp()
+          });
     }
 }
 
+function takeMeToSignUp(){
+    window.location.href = 'sign-up.php'
+}
 
 function randomUniqueId() {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
