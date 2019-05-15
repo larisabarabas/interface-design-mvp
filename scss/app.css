@@ -72,6 +72,9 @@
   .car-info img {
     width: 100%; }
 
+.car-image {
+  width: 100%; }
+
 .price-info {
   margin: 20px 0px;
   color: #07131F; }

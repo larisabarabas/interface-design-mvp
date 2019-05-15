@@ -25,6 +25,9 @@ $('input[name="pickOff"]').daterangepicker({
 });
 });
 
+document.getElementById('pickUp').value = '';
+document.getElementById('pickOff').value = '';
+
 function doSearch(){
     let searchPickupLocation = document.getElementById('strLocation').value;
     let searchPickupDateTime = document.getElementById('pickUp').value;
