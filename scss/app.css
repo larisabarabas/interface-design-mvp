@@ -69,6 +69,8 @@
 .car-info {
   font-size: 12px;
   text-align: center; }
+  .car-info img {
+    width: 100%; }
 
 .price-info {
   margin: 20px 0px;

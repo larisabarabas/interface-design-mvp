@@ -92,6 +92,9 @@ $border-color: #D8D8D8;
 .car-info{
     font-size: 12px;
     text-align: center;
+    img{
+        width: 100%;
+    }
 }
 
 .price-info{
@@ -663,6 +666,7 @@ sup{
         height: 300px;
         align-items: center;
         font-size: 17px;
+        
     }
     .car-image{
         flex: 1;
