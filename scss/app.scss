@@ -25,9 +25,9 @@ $border-color: #D8D8D8;
 .main-container{
     margin: 20px 40px;
     p{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
+        // display: flex;
+        // justify-content: space-between;
+        // width: 100%;
         margin-bottom: .6rem;
     }
 }
@@ -763,7 +763,30 @@ h6{
 .index-box{
     height: 90vh;
 }
-
+.payment-info{
+    color: $textcolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.total{
+    font-weight: 600;
+    font-size: 19px;
+}
+.font-size-17{
+    font-size: 17px !important;
+}
+.swal-content__input, .swal-content__textarea{
+    border: none;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #A3A3A3;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
 @media only screen and (min-width: 990px) { 
     .mobile-only{
         display: none;

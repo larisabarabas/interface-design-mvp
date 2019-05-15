@@ -5,11 +5,13 @@ $sLinkToPageBack = 'driver-details.php';
 
 <div class="main-container">
     <h1 class="padding-top-bottom-40">Payment</h1>
-    <p>Base Rate<span class="align-right" id="chosenCarPrice"></span></p>
-    <p>Kilometers<span class="align-right">Unlimited</span></p>
-    <p>Extras<span class="align-right" id="extrasPrice"></span></p>
-    <p>VAT<span class="align-right" id="VAT"></span></p>
-    <p>Total<span class="align-right" id="total"></span></p>
+    <div class="payment-info">
+        <p>Base Rate<span class="align-right" id="chosenCarPrice"></span></p>
+        <p>Kilometers<span class="align-right">Unlimited</span></p>
+        <p>Extras<span class="align-right" id="extrasPrice"></span></p>
+        <p>VAT<span class="align-right" id="VAT"></span></p>
+        <p class="total">Total<span class="align-right total" id="total"></span></p>
+    </div>
 
     <h2>Credit Card & Billing Information</h2>
         <input type="text" id="paymentCardNo" placeholder="Card number">
