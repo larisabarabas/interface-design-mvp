@@ -3,7 +3,7 @@
 ?>
 <div class="main-container">
     <h1 class="text-center padding-top-bottom-40">Pickup location</h1>
-    <form>
+    <form onchange="checkValidation()">
         <div class="form-group">
             <input type="text" id="strLocation" placeholder="Pick-up Location">
         </div>
@@ -27,13 +27,13 @@
             <input  type="text" name="pickOff" id="pickOff" placeholder="Drop-off date" />
         </div>
         <div class="button-container">
-            <button type="button" onclick="doSearch()" class="btn green-btn">Search</button>
+            <button id="searchBtn" type="button" disabled onclick="doSearch()" class="btn green-btn">Search</button>
         </div>
     </form>
 </div>
       
 
-<?php 
+<?php  
  $sLinkToScript = '<script src="js/search.js"></script>';
   require_once 'bottom.php';
 ?>

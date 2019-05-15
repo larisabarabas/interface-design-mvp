@@ -20,19 +20,19 @@ $sLinkToPageBack = 'search.php';
   </div>
 
   <div class="card info-link">
-        <h1 class="margin-bottom-1rem">Pickup</h1>
-        <p class="font-size-17">Copenhagen Airport, CPH</p>
-        <p id="chosen-pickup" class="ui-widget-header">Fri, May 21, 10:00 AM</p>
-    </div>
-    <div class="card info-link">
-        <h1 class="margin-bottom-1rem">Return</h1>
-        <p class="font-size-17">Copenhagen Airport, CPH</p>
-        <p id="chosen-dropoff" class="ui-widget-header margin-bottom-20px">Fri, May 21, 10:00 AM</p>
-    </div>
+      <h1 class="margin-bottom-1rem">Pickup</h1>
+      <p class="font-size-17"><span id="pickup-location"></span></p>
+      <p id="chosen-pickup" class="ui-widget-header"></p>
+  </div>
+  <div class="card info-link">
+      <h1 class="margin-bottom-1rem">Return</h1>
+      <p id="dropoff-location" class="font-size-17"></p>
+      <p id="chosen-dropoff" class="ui-widget-header margin-bottom-20px"></p>
+  </div>
 
-    <div class="button-container">
-       <a href='view-booking.php'> <button type="button" class="btn green-btn">Go to view booking</button></a>
-    </div>
+  <div class="button-container">
+      <a href='view-booking.php'> <button type="button" class="btn green-btn">Go to view booking</button></a>
+  </div>
 </div>
 
 
