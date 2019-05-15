@@ -4,6 +4,7 @@ document.getElementById('chosenCarPrice').textContent += localStorage.getItem('s
 let extraHandsFree;
 let extraMobileWifi;
 let extraBabySeat;
+let payBtn = document.querySelector("#payBtn");
 
 
 if(localStorage.getItem('carDetailsHandsFree')){
@@ -42,15 +43,24 @@ function pay(){
         let paymentCardHolder = document.getElementById('paymentCardHolder').value;
         let paymentCardExpiryYear = document.getElementById('paymentCardExpiryYear').value;
         let paymentCardExpiryMonth = document.getElementById('paymentCardExpiryMonth').value;
+        let paymentCardCVV = document.getElementById('paymentCardCVV').value;
         localStorage.setItem('paymentCardNo', paymentCardNo);
         localStorage.setItem('paymentCardHolder', paymentCardHolder);
         localStorage.setItem('paymentCardExpiryYear', paymentCardExpiryYear);
         localStorage.setItem('paymentCardExpiryMonth', paymentCardExpiryMonth);
-        swal({
-            icon: "success",
-            text: "Payment success"
-          }).then(()=>{
-              window.location.href = 'confirmation.php'
-          });
+        localStorage.setItem('paymentCardCVV', paymentCardCVV);
+
+            swal({
+                icon: "success",
+                text: "Payment success"
+              }).then(()=>{
+                  window.location.href = 'confirmation.php'
+              });
 }
+
+// function checkValidation(){
+//     if(paymentCardNo!=='' && paymentCardHolder!=='' && paymentCardExpiryYear!=='' && paymentCardExpiryMonth!=='' && paymentCardCVV!==''){
+//         payBtn.removeAttribute('disabled');
+//     }
+// }
 

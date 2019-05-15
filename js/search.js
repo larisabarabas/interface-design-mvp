@@ -1,4 +1,14 @@
 console.log("log")
+let searchBtn = document.querySelector("#searchBtn");
+
+// $(function() {
+//     $('input[name="pickUp"]').daterangepicker({
+//         autoUpdateInput: false,
+//         locale: {
+//             cancelLabel: 'Clear'
+//         }
+//     });
+// });
 
 $(function() {
 $('input[name="pickUp"]').daterangepicker({
@@ -45,6 +55,13 @@ function doSearch(){
 
     window.location.href = 'search-results.php';
 
+}
+
+function checkValidation(){
+    let strLocation = document.getElementById('strLocation').value;
+    if(strLocation!==''){
+      searchBtn.removeAttribute('disabled');
+    }
 }
 
 function showReturnLocationInput(){

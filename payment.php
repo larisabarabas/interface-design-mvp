@@ -12,13 +12,12 @@ $sLinkToPageBack = 'driver-details.php';
         <p>VAT<span class="align-right" id="VAT"></span></p>
         <p class="total">Total<span class="align-right total" id="total"></span></p>
     </div>
-
-    <h2>Credit Card & Billing Information</h2>
+        <h2>Credit Card & Billing Information</h2>
         <input type="text" id="paymentCardNo" placeholder="Card number">
         <input type="text" id="paymentCardHolder" placeholder="Cardholder name">
         <div class="card-expiry-cvv">
             <div class="expiry-container"><input placeholder="Month" id="paymentCardExpiryMonth" type="text" class="expiry-date"><div class="slash">/</div><input placeholder="Year" id="paymentCardExpiryYear" type="text" class="expiry-date expiry-year"></div>
-            <input type="text" placeholder="CVV" class="cvv">
+            <input id="paymentCardCVV" type="text" placeholder="CVV" class="cvv">
         </div>
     
         <button id="payBtn" onclick="pay()" class=" btn green-btn">Pay now</button>
