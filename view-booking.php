@@ -4,22 +4,25 @@
 ?>
 
 <div class="main-container">
-    <h1 class="margin-bottom-1rem">View Booking</h1>
+    <h1 class="margin-bottom-1rem padding-top-bottom-20">View Booking</h1>
     <div class="card" >
         <img id="chosen-car-image" class="card-img-top" src="" alt="Card image cap">
         <div class="card-body">
             <h1 id="chosen-car-title" class="text-center card-title"></h1>
-            <p class="card-text car-info font-size-17">Booking reference: <span class="booking-reference">KEA2019</span></p>
+            <div class="card info-link booking-reference-container">
+        <p>Booking reference:<span>&nbsp;KEA2019</span></p>
+        <p>Total: <span id="payment-total"></span> DKK</p>
+    </div>
         </div>
     </div>
     <div class="card info-link">
         <h1 class="margin-bottom-1rem">Pickup</h1>
-        <p class="font-size-17">Copenhagen Airport, CPH</p>
+        <p class="font-size-17"><span id="pickup-location"></span></p>
         <p id="chosen-pickup" class="ui-widget-header"></p>
     </div>
     <div class="card info-link">
         <h1 class="margin-bottom-1rem">Return</h1>
-        <p class="font-size-17">Copenhagen Airport, CPH</p>
+        <p class="font-size-17"><span id="dropoff-location"></span></p>
         <p id="chosen-dropoff" class="ui-widget-header margin-bottom-20px"></p>
     </div>
 
@@ -36,17 +39,22 @@
     </div>
 
 
-    <div class="card info-link container text-center font-size-17">
+    <span id="extra-equipment-on-view-booking" class="card info-link text-center font-size-17">
         <h1 class="margin-bottom-1rem fsize-17">Selected equipment</h1>
-        <div class="row">
-            <div class="col" id="baby-seat"><img class="icon" src="images/baby.svg"/>Baby seat</div>
+        <div class="text-center font-size-17">
+            <div class="row">
+                <div class="col text-left hidden" id="baby-seat"><img class="icon" src="images/baby.svg"/>Baby seat</div>
+                <div class="col text-left hidden" id="mobile-wifi"><img class="icon" src="images/wifi.svg"/>Mobile Wifi</div>
+            </div>
+            <div class="row">
+                <div class="col text-left hidden" id="hands-free"><img class="icon" src="images/navigation.svg"/>Hands free</div>
+            </div>
         </div>
-    </div>
+    </span>
 
 </div>
 
 <?php 
-    $sLinkToScript = '<script src="js/car-details.js"></script>';
     $sLinkToScript = '<script src="js/confirmation.js"></script>';
     require_once 'bottom.php';
 ?>
