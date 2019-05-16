@@ -746,7 +746,7 @@ h6{
     margin-bottom: 30px;
 }
 .profile-icon{
-    height: 200px;
+    height: 150px;
 }
 .profile-box{
     display: flex;
@@ -789,6 +789,12 @@ h6{
 }
 .invalid{
     color: red;
+}
+.btn:hover, a:hover {
+    color: $primarygreen;
+}
+.total-bold{
+    font-weight: 600;
 }
 @media only screen and (min-width: 990px) { 
     .mobile-only{

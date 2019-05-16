@@ -52,7 +52,10 @@ function pay(){
 
             swal({
                 icon: "success",
-                text: "Payment success"
+                text: "Payment success",
+                button:{
+                    className:'green-btn'
+                }
               }).then(()=>{
                   window.location.href = 'confirmation.php'
               });

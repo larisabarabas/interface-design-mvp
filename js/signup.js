@@ -39,7 +39,10 @@ function signUp() {
         localStorage.setItem('userId',userId);
         swal({
           icon: "success",
-          text: 'You have been successfully resgistered'
+          text: 'You have been successfully resgistered',
+          button:{
+            className:'green-btn'
+          },
         }).then(()=>{
           window.location.href = 'search.php'
         })

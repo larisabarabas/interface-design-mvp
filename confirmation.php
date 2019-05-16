@@ -16,7 +16,7 @@ $sLinkToPageBack = 'search.php';
 
   <div class="card info-link booking-reference-container">
     <p>Booking reference:<span>&nbsp;KEA2019</span></p>
-    <p>Total: <span id="payment-total"></span> DKK</p>
+    <p class="total-bold">Total: <span id="payment-total"></span> DKK</p>
   </div>
 
   <div class="card info-link">
