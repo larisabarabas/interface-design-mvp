@@ -58,9 +58,14 @@ function pay(){
               });
 }
 
-// function checkValidation(){
-//     if(paymentCardNo!=='' && paymentCardHolder!=='' && paymentCardExpiryYear!=='' && paymentCardExpiryMonth!=='' && paymentCardCVV!==''){
-//         payBtn.removeAttribute('disabled');
-//     }
-// }
+function removeDisableBtn(){
+    let paymentCardNo = document.getElementById('paymentCardNo').value;
+    let paymentCardHolder = document.getElementById('paymentCardHolder').value;
+    let paymentCardExpiryYear = document.getElementById('paymentCardExpiryYear').value;
+    let paymentCardExpiryMonth = document.getElementById('paymentCardExpiryMonth').value;
+    let paymentCardCVV = document.getElementById('paymentCardCVV').value;
+    if(paymentCardNo!=='' && paymentCardHolder!=='' && paymentCardExpiryYear!=='' && paymentCardExpiryMonth!=='' && paymentCardCVV!==''){
+        payBtn.removeAttribute('disabled');
+    }
+}
 

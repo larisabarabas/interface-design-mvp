@@ -4,7 +4,7 @@
   display: initial; }
 
 .hidden {
-  display: none; }
+  display: none !important; }
 
 .navbar-brand {
   margin-left: 16px; }
