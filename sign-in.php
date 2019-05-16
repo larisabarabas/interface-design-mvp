@@ -5,8 +5,10 @@
 
     <div class="main-container">
         <h1>Sign in</h1>
-        <input type="email" placeholder="Email" id="loginEmail">
-        <input type="password" placeholder="Password" id="loginPassword">
+        <form>
+            <input type="email" placeholder="Email" id="loginEmail" data-validate="yes" data-type="email" data-min="6" data-max="50">
+            <input type="password" placeholder="Password" id="loginPassword" data-validate="yes" data-type="string" data-min="6" data-max="50">
+        </form>
         <a class="green-btn" onclick='login()'>Sign in</a>
         <div class="bottom-links">
             <span onclick="changePassword()">Forgot password?</span>
