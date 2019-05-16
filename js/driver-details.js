@@ -11,8 +11,6 @@ $(function() {
   });
 
 
-  let userId= localStorage.getItem('userId');
-
   function prefillData(){
       if(document.getElementById('checkDriver').checked){
           document.getElementById('driverDetailsFirstName').value = localStorage.getItem('signUpFirstName');
@@ -44,4 +42,9 @@ $(function() {
             localStorage.setItem('driverDetailsPhone', driverDetailsPhone);
             window.location.href = 'payment.php'
       }
+  }
+
+  let loggedInUserId= localStorage.getItem('userId');
+  if(loggedInUserId == null){
+    document.getElementById('driverCheckbox').className += ' hidden';
   }

@@ -11,7 +11,7 @@ $border-color: #D8D8D8;
 }
 
 .hidden{
-    display: none;
+    display: none !important;
 }
 
 .navbar-brand{
@@ -786,6 +786,9 @@ h6{
     font-size: 15px;
     font-family: 'Lato', sans-serif;
     outline: none;
+}
+.invalid{
+    border-bottom: 1px solid red
 }
 @media only screen and (min-width: 990px) { 
     .mobile-only{

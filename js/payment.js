@@ -6,6 +6,10 @@ let extraMobileWifi;
 let extraBabySeat;
 let payBtn = document.querySelector("#payBtn");
 
+payBtn.addEventListener("click", function(){
+   pay();
+  });
+
 
 if(localStorage.getItem('carDetailsHandsFree')){
      extraHandsFree = localStorage.getItem('carDetailsHandsFree');
@@ -44,6 +48,8 @@ function pay(){
         let paymentCardExpiryYear = document.getElementById('paymentCardExpiryYear').value;
         let paymentCardExpiryMonth = document.getElementById('paymentCardExpiryMonth').value;
         let paymentCardCVV = document.getElementById('paymentCardCVV').value;
+        if(paymentCardNo!=='' && paymentCardHolder!=='' && paymentCardExpiryYear!=='' && paymentCardExpiryMonth!=='' && paymentCardCVV!==''){
+
         localStorage.setItem('paymentCardNo', paymentCardNo);
         localStorage.setItem('paymentCardHolder', paymentCardHolder);
         localStorage.setItem('paymentCardExpiryYear', paymentCardExpiryYear);
@@ -56,11 +62,17 @@ function pay(){
               }).then(()=>{
                   window.location.href = 'confirmation.php'
               });
+        }
 }
 
-// function checkValidation(){
-//     if(paymentCardNo!=='' && paymentCardHolder!=='' && paymentCardExpiryYear!=='' && paymentCardExpiryMonth!=='' && paymentCardCVV!==''){
-//         payBtn.removeAttribute('disabled');
-//     }
-// }
+function removeDisableBtn(){
+    let paymentCardNo = document.getElementById('paymentCardNo').value;
+    let paymentCardHolder = document.getElementById('paymentCardHolder').value;
+    let paymentCardExpiryYear = document.getElementById('paymentCardExpiryYear').value;
+    let paymentCardExpiryMonth = document.getElementById('paymentCardExpiryMonth').value;
+    let paymentCardCVV = document.getElementById('paymentCardCVV').value;
+    if(paymentCardNo!=='' && paymentCardHolder!=='' && paymentCardExpiryYear!=='' && paymentCardExpiryMonth!=='' && paymentCardCVV!==''){
+        payBtn.removeAttribute('disabled');
+    }
+}
 
