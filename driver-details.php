@@ -6,7 +6,7 @@
 <div class="main-container">
 
     <h1 class="padding-top-bottom-40">Driver Details</h1>
-    <div class="col inline-flex">
+    <div class="col inline-flex" id="driverCheckbox">
                 <label class="container">I am the driver
                     <input class="checkbox" type="checkbox" onClick="prefillData()" name="checkDriver" id="checkDriver"/>
                     <span class="checkmark"></span>

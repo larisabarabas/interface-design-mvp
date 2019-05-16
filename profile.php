@@ -4,10 +4,11 @@
 ?>
 <div class="container profile-box">
     <img class="profile-icon" src="images/profile.svg">
-    <h6>John Doe</h6>
-    <h5>john.doe@mail.com</h5>
+    <h6 id="sLoggedInUserName"></h6>
+    <h5 id="sLoggedInUserEmail"></h5>
 </div>
 
 <?php 
+     $sLinkToScript = '<script src="js/profile.js"></script>';
     require_once 'bottom.php';
 ?>
