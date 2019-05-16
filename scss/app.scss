@@ -788,7 +788,7 @@ h6{
     outline: none;
 }
 .invalid{
-    color: red;
+    border-bottom: 1px solid red
 }
 @media only screen and (min-width: 990px) { 
     .mobile-only{

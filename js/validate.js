@@ -1,5 +1,5 @@
-// $('form').submit(function(){
-    $('form').change(function(){
+ $('form').submit(function(){
+   // $('form').change(function(){
         //Find what to validate
         // let bErrors = false
         $(this).find('input[data-validate=yes]').each( function(){
@@ -18,8 +18,10 @@
                 break
                 
                 case "integer":
-                    if( Number($(this).val()) < iMin || 
-                        Number($(this).val()) > iMax ){
+                console.log($(this).val())
+                
+                    if( Number($(this).val().length) < iMin || 
+                        Number($(this).val().length) > iMax ){
                           $(this).addClass('invalid')
                         //   bErrors = true
                     }
@@ -44,13 +46,9 @@
             }
         })
     
-        // if(bErrors==false){
-        //     return true
-        // }
-        //what to check for?
+
         if($(this).children().hasClass('invalid') ){return false}
     
-        // return false
     
     })
     
