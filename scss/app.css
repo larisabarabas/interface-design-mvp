@@ -685,6 +685,9 @@ h6 {
 .invalid {
   border-bottom: 1px solid red; }
 
+.no-margin {
+  margin: 0px; }
+
 @media only screen and (min-width: 990px) {
   .mobile-only {
     display: none; }
