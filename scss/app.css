@@ -1,0 +1,708 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+.mobile-only {
+  display: initial; }
+
+.hidden {
+  display: none !important; }
+
+.navbar-brand {
+  margin-left: 16px; }
+
+.align-right {
+  float: right !important; }
+
+.main-container {
+  margin: 20px 40px; }
+  .main-container p {
+    margin-bottom: .6rem; }
+
+.padding-top-bottom-20 {
+  margin: 20px 0; }
+
+.padding-top-bottom-40 {
+  margin: 40px 0px; }
+
+.margin-top-bottom-40 {
+  margin: 40px 0; }
+
+.margin-top-bottom-20 {
+  margin: 20px 0; }
+
+.margin-top-40 {
+  margin: 40px 0 0 0; }
+
+.car-details-heading {
+  margin: 20px 0 30px 0; }
+
+.small-text {
+  margin-bottom: 30px;
+  color: #A3A3A3;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5em; }
+
+.button-container {
+  display: flex;
+  justify-content: center; }
+
+.card {
+  border: none; }
+
+.card-title {
+  color: #07131F; }
+
+.info-link {
+  margin: 20px 0px;
+  text-align: center; }
+
+.info-link p {
+  font-size: 13px;
+  margin-bottom: 0.5rem; }
+
+.info-link p:last-child {
+  font-size: 17px; }
+
+.car-info {
+  font-size: 12px;
+  text-align: center; }
+  .car-info img {
+    width: 100%; }
+
+.car-image {
+  width: 100%; }
+
+.price-info {
+  margin: 20px 0px;
+  color: #07131F; }
+
+.price-info h4 {
+  font-weight: 600; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px; }
+
+.icon {
+  padding-bottom: 5px;
+  width: 24px;
+  padding-right: 5px;
+  margin-right: 5px; }
+
+.checkbox {
+  width: 20px;
+  margin-bottom: 0px; }
+
+.inline-flex {
+  display: inline-flex;
+  padding-left: 0px; }
+
+.check-text {
+  margin-top: -6px; }
+
+sup {
+  font-family: Montserrat;
+  font-size: 14px; }
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 15px;
+  color: #A3A3A3; }
+
+.main-logo {
+  height: 150px;
+  margin-bottom: 50px; }
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /*padding: 15vw;*/ }
+
+.green-btn {
+  background-color: #27E277;
+  text-align: center;
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  padding: 15px;
+  width: 100%;
+  margin: 10px 0;
+  text-decoration: none;
+  border-radius: 0;
+  font-weight: 400; }
+
+.disabled-btn {
+  background-color: #D8D8D8; }
+
+.swal-button:focus {
+  outline: none;
+  box-shadow: none; }
+
+.swal-button:not([disabled]):hover {
+  background-color: #27E277; }
+
+.applyBtn {
+  background-color: #27E277;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  padding: 15px;
+  border: none;
+  margin: 10px 0;
+  text-decoration: none;
+  border-radius: 0; }
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+
+nav {
+  background-color: #27E277;
+  display: flex;
+  align-items: center; }
+
+.header-logo {
+  height: 50px;
+  margin: 10px; }
+
+.back {
+  height: 30px;
+  margin-left: 7vw; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #27E277;
+  font-size: 22px;
+  margin-bottom: 80px; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #27E277;
+  font-size: 16px;
+  margin: 40px 0 20px 0; }
+
+.margin-bottom-1rem {
+  margin-bottom: 1rem; }
+
+.margin-top-20px {
+  margin-top: 20px !important; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+input {
+  border: none;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #A3A3A3;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  outline: none; }
+
+a {
+  color: #27E277;
+  text-decoration: none; }
+
+.bottom-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+::placeholder {
+  color: #bcbcbc; }
+
+.ui-datepicker {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none;
+  background: white;
+  font-family: 'Lato', sans-serif;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.26); }
+
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center;
+  color: #FFFFFF;
+  background: #27E277; }
+
+.ui-datepicker table {
+  width: 100%;
+  font-size: .7em;
+  border-collapse: collapse;
+  font-family: verdana;
+  margin: 0 0 .4em;
+  color: #000000;
+  background: white; }
+
+/*This is date TD */
+.ui-datepicker td {
+  border: 0;
+  padding: 1px; }
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+  display: block;
+  padding: .8em;
+  text-align: right;
+  text-decoration: underline; }
+
+.ui-widget-header {
+  border: none;
+  background: none;
+  color: #222222;
+  font-weight: bold; }
+
+.ui-icon, .ui-widget-content .ui-icon {
+  background-image: url(../images/arrows.png); }
+
+.ui-icon-circle-triangle-w {
+  background-position: 10px 1px; }
+
+.ui-icon {
+  width: 22px;
+  height: 22px; }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+  border-radius: 0; }
+
+.ui-widget-content {
+  border: transparent; }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  font-weight: normal;
+  color: #555555;
+  font-size: 14px;
+  border: none;
+  background: transparent;
+  text-decoration: none; }
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+  background: #27E277 !important;
+  color: white !important;
+  text-align: center;
+  border-radius: 50%; }
+
+.ui-datepicker .ui-datepicker-header {
+  background: #27E277; }
+
+#date_ex,
+#pickUp,
+#pickOff,
+#driverDetailsBirthDate,
+#signUpBirthDate {
+  background: url(../images/calendar.svg) no-repeat right center;
+  background-size: 27px 27px; }
+
+#strLocation,
+#returnLocation {
+  background: url(../images/target.svg) no-repeat left center;
+  background-size: 27px 27px;
+  padding-left: 35px; }
+
+/*manage-booking.php*/
+.booking-reference {
+  font-weight: bold;
+  color: #707070; }
+
+.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
+  min-width: 30px;
+  width: 25px;
+  height: 30px;
+  line-height: 24px; }
+
+.daterangepicker td.start-date.end-date {
+  border-radius: 50%; }
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #27E277; }
+
+.daterangepicker {
+  font-family: 'Lato', sans-serif;
+  width: auto; }
+
+#car-details {
+  font-size: 15px;
+  color: #07131F;
+  margin-bottom: 20px; }
+
+#car-details-container-padding-bottom {
+  margin-bottom: 20px; }
+
+#baby-seat, #mobile-wifi, #hands-free {
+  color: #07131F; }
+
+.fsize-17 {
+  font-size: 17px; }
+
+.booking-reference-container {
+  color: #07131F; }
+  .booking-reference-container p:first-child {
+    font-size: 17px; }
+
+/*search.php*/
+input#search-input {
+  width: auto !important;
+  margin-bottom: 0; }
+
+/*Navbar*/
+.navbar-light .navbar-toggler {
+  border: none; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/burger.svg");
+  outline: none; }
+
+.navbar-light .navbar-toggler {
+  outline: none; }
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+
+.rento-logo {
+  width: 300px;
+  margin-bottom: 50px; }
+
+.back-arrow {
+  height: 30px;
+  width: 15px; }
+
+.car-details-text {
+  color: #07131F;
+  font-size: 15px; }
+
+/*Checkboxes*/
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.container input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee; }
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc; }
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #27E277; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.card-expiry-cvv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+  .card-expiry-cvv input {
+    margin: 0; }
+
+.expiry-container {
+  display: flex;
+  align-items: flex-end; }
+
+.expiry-date {
+  text-align: left; }
+
+.expiry-year {
+  text-align: right; }
+
+.cvv {
+  width: 100px !important;
+  margin-left: 15px !important; }
+
+.slash {
+  height: 40px;
+  border-bottom: 1px solid #A3A3A3;
+  color: #A3A3A3; }
+
+.search-bar {
+  display: flex; }
+  .search-bar .green-btn {
+    align-self: flex-start;
+    margin-top: 0; }
+  .search-bar input[type="text"], .search-bar ::placeholder {
+    color: #07131F;
+    background-color: #F4F4F4;
+    border: none;
+    height: 55px;
+    margin-right: 10px;
+    padding: 15px 10px;
+    width: auto; }
+  .search-bar #pickUp, .search-bar #pickOff {
+    background: url(../images/calendar-black.svg) no-repeat 10px center;
+    background-size: 27px 27px;
+    padding-left: 50px;
+    background-color: #F4F4F4; }
+
+.location-input {
+  width: 700px !important;
+  width: 700px !important;
+  background: url(../images/location.svg) no-repeat scroll 10px 13px;
+  padding-left: 50px !important;
+  background-size: 30px; }
+
+.desktop-container {
+  padding: 5% 8%; }
+
+.btn-primary {
+  background-color: #27E277;
+  border-color: #27E277; }
+
+.btn-group-sm > .btn, .btn-sm {
+  border-radius: 50px; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #27E277;
+  border-color: #27E277; }
+
+.car-card {
+  color: #07131F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  margin-bottom: 40px;
+  margin-top: 30px; }
+
+.car-image img {
+  height: 150px; }
+
+.black-heading {
+  color: black; }
+
+h1 {
+  margin-bottom: 10px; }
+
+h4 {
+  font-size: 17px;
+  color: #707070; }
+
+.car-features {
+  display: flex;
+  margin: 20px 0 40px 0; }
+
+.car-text {
+  width: 40vw;
+  margin-left: 20px; }
+
+.car-pay {
+  width: 17vw; }
+
+.extra-equipment {
+  display: flex;
+  margin-top: 20px; }
+
+.price {
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px; }
+
+sup {
+  vertical-align: middle; }
+
+.reservation-details {
+  display: flex;
+  margin-top: 50px;
+  color: #07131F;
+  border-bottom: 1px solid #D8D8D8;
+  align-items: center;
+  margin-bottom: 50px; }
+  .reservation-details .pickup, .reservation-details .return {
+    flex: 1; }
+  .reservation-details .return {
+    border-left: 1px solid #D8D8D8;
+    padding-left: 35px; }
+  .reservation-details p {
+    margin-bottom: 5px; }
+  .reservation-details .car-info {
+    display: flex;
+    text-align: left;
+    height: 300px;
+    align-items: center;
+    font-size: 17px; }
+  .reservation-details .car-image {
+    flex: 1; }
+  .reservation-details .car-text {
+    flex: 2; }
+  .reservation-details .total-info {
+    border-left: 1px solid #D8D8D8;
+    height: 400px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    width: 22vw;
+    line-height: 2.5; }
+  .reservation-details .total-amount {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px; }
+  .reservation-details input {
+    width: auto;
+    width: 290px;
+    margin-right: 30px; }
+
+.pay-btn {
+  left: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  padding: 15px 50px !important; }
+
+.row.reservation-details {
+  border-bottom: none;
+  margin-left: 0;
+  margin-right: 0; }
+
+.pickup-return {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #D8D8D8;
+  height: 135px;
+  align-items: center; }
+
+h6 {
+  font-size: 22px;
+  color: #07131F;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif; }
+
+.swal-title {
+  font-size: 17px !important; }
+
+.expiration {
+  border: 1px solid #bbb; }
+
+.expiration input {
+  border: 0;
+  text-align: center;
+  outline: 0;
+  /* remove if you want input highlight */ }
+
+.btn:hover, a:hover {
+  color: white;
+  text-decoration: none; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.profile-icon {
+  height: 200px; }
+
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; }
+  .profile-box h6 {
+    margin-top: 20px; }
+  .profile-box h5 {
+    font-size: 17px; }
+
+.index-box {
+  height: 90vh; }
+
+.payment-info {
+  color: #07131F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%; }
+
+.total {
+  font-weight: 600;
+  font-size: 19px; }
+
+.font-size-17 {
+  font-size: 17px !important; }
+
+.swal-content__input, .swal-content__textarea {
+  border: none;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #A3A3A3;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  outline: none; }
+
+.invalid {
+  border-bottom: 1px solid red; }
+
+@media only screen and (min-width: 990px) {
+  .mobile-only {
+    display: none; }
+
+  .green-btn {
+    width: 300px;
+    padding: 15px 30px; }
+
+  .main-container {
+    padding: 10vw 30vw; }
+
+  .bottom-links {
+    width: 300px; }
+
+  input {
+    margin-bottom: 10px; }
+
+  .container {
+    display: inline; } }
+
+/*# sourceMappingURL=app.css.map */
